@@ -9,6 +9,9 @@ public class AddFacilityPage extends Utility {
 
 	WebDriver driver;
 
+	public By clubProfileMenu = By.xpath("//span[text()='Club Profile']");
+	public By clubFacilitiesSubMenu = By.xpath("//span[text()='Club Facilities']");
+	public By clubFacilitiesTitle = By.xpath("//h3[text()='Facilities on Your Club Profile']");
 	public By addfacilityButton = By.xpath("//p[@class=\"card-header\"]/b");
 	public By addedFacility = By.xpath("//div[@class=\"card-header ellip\"]/b[text()='New Test Facility']");
 	public By deleteButton = By.xpath("//a[@title='Delete']");

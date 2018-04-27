@@ -18,7 +18,6 @@ import com.mobicom.pages.AddFacilityPage;
 import com.mobicom.pages.LoginPage;
 
 public class AddFacilityTest extends BaseTest {
-	LoginPage loginObject;
 	AddFacilityPage addFacilityObject;
 	Alert alert;
 	int publishedItems=0;
@@ -27,15 +26,14 @@ public class AddFacilityTest extends BaseTest {
 	@BeforeClass
 	public void beforeTheClass(@Optional("Chrome on Mac") String param) throws MalformedURLException {
 		initTest(param);
-		loginObject = new LoginPage(driver);
 		addFacilityObject = new AddFacilityPage(driver);
 	}
 
 	@Test(priority = 89)
 	public void clickClubFacilitiesInMenu() {
-		Utility.findElement(loginObject.clubProfileMenu).click();
-		Utility.findElement(loginObject.clubFacilitiesSubMenu).click();
-		assertTrue(Utility.isElementDisplayed(loginObject.clubFacilitiesTitle), "Club facilities not loaded");
+		Utility.findElement(addFacilityObject.clubProfileMenu).click();
+		Utility.findElement(addFacilityObject.clubFacilitiesSubMenu).click();
+		assertTrue(Utility.isElementDisplayed(addFacilityObject.clubFacilitiesTitle), "Club facilities not loaded");
 	}
 
 	@DataProvider(name = "clubFacilitiesElements")

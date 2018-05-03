@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="19" ignored="0" total="27" passed="8">
+<testng-results skipped="0" failed="1" ignored="0" total="22" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24469" started-at="2018-04-25T12:47:29Z" finished-at="2018-04-25T12:47:54Z">
+  <suite name="Suite" duration-ms="21068" started-at="2018-05-02T12:22:31Z" finished-at="2018-05-02T12:22:52Z">
     <groups>
     </groups>
-    <test name="Chrome on mac" duration-ms="24469" started-at="2018-04-25T12:47:29Z" finished-at="2018-04-25T12:47:54Z">
+    <test name="Chrome on mac" duration-ms="21068" started-at="2018-05-02T12:22:31Z" finished-at="2018-05-02T12:22:52Z">
       <class name="com.mobicom.tests.LoginTest">
-        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="beforeTheClass" is-config="true" duration-ms="2685" started-at="2018-04-25T12:47:29Z" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beforeTheClass" is-config="true" duration-ms="4561" started-at="2018-05-02T12:22:31Z" finished-at="2018-05-02T12:22:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Safari on mac]]>
+                <![CDATA[Chrome on mac]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTheClass -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="5" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="5" started-at="2018-05-02T12:22:35Z" finished-at="2018-05-02T12:22:35Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="testLoginPageElements" duration-ms="48" started-at="2018-04-25T12:47:32Z" data-provider="loginPageElements" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="testLoginPageElements" duration-ms="141" started-at="2018-05-02T12:22:35Z" data-provider="loginPageElements" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -45,18 +45,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="7" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="7" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6f195bc3] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="testLoginPageElements" duration-ms="26" started-at="2018-04-25T12:47:32Z" data-provider="loginPageElements" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="testLoginPageElements" duration-ms="74" started-at="2018-05-02T12:22:36Z" data-provider="loginPageElements" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -83,29 +83,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6f195bc3] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.LoginTest.testLoginPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="testLoginPageElements" duration-ms="26" started-at="2018-04-25T12:47:32Z" data-provider="loginPageElements" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="testLoginPageElements" duration-ms="71" started-at="2018-05-02T12:22:36Z" data-provider="loginPageElements" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -121,18 +110,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6f195bc3] output={null}]]]>
+                <![CDATA[public void com.mobicom.tests.LoginTest.testLoginPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:32Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="2" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -143,1752 +143,683 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="loginToClub" duration-ms="828" started-at="2018-04-25T12:47:32Z" finished-at="2018-04-25T12:47:33Z">
+        <test-method status="PASS" signature="loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="loginToClub" duration-ms="1919" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToClub -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToClub status=SUCCESS method=LoginTest.loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@6f195bc3] output={null}]]]>
+                <![CDATA[[TestResult name=loginToClub status=SUCCESS method=LoginTest.loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.mobicom.tests.LoginTest@6f195bc3]" name="endTest" is-config="true" duration-ms="483" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:54Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="endTest" is-config="true" duration-ms="595" started-at="2018-05-02T12:22:51Z" finished-at="2018-05-02T12:22:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.mobicom.tests.LoginTest -->
-      <class name="com.mobicom.tests.AddFacilityTest">
-        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beforeTheClass" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+      <class name="com.mobicom.tests.MemberAccessTest">
+        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beforeTheClass" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Safari on mac]]>
+                <![CDATA[Chrome on mac]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTheClass -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="clickMemberAccessInMenu()[pri:200, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="clickMemberAccessInMenu" duration-ms="1379" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMemberAccessInMenu -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.clickClubFacilitiesInMenu()]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.clickMemberAccessInMenu()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="clickClubFacilitiesInMenu()[pri:89, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="clickClubFacilitiesInMenu" duration-ms="15" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 13 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[text()='Club Profile']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 13 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[text()='Club Profile']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.clickClubFacilitiesInMenu(AddFacilityTest.java:36)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickClubFacilitiesInMenu -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="5" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickClubFacilitiesInMenu status=FAILURE method=AddFacilityTest.clickClubFacilitiesInMenu()[pri:89, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
+                <![CDATA[[TestResult name=clickMemberAccessInMenu status=SUCCESS method=MemberAccessTest.clickMemberAccessInMenu()[pri:200, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="FAIL" signature="verifyClubFacilitiesElements(org.openqa.selenium.By, java.lang.String)[pri:90, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="verifyClubFacilitiesElements" duration-ms="11" started-at="2018-04-25T12:47:53Z" data-provider="clubFacilitiesElements" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //p[@class="card-header"]/b]]>
+                <![CDATA[By.xpath: //h3[text()='PlatinumClubNet Member Access']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Add facilities button not found]]>
+                <![CDATA[Header not found]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//p[@class="card-header"]/b}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//p[@class="card-header"]/b}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.helpers.Utility.isElementDisplayed(Utility.java:87)
-at com.mobicom.tests.AddFacilityTest.verifyClubFacilitiesElements(AddFacilityTest.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyClubFacilitiesElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.verifyClubFacilitiesElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyClubFacilitiesElements status=FAILURE method=AddFacilityTest.verifyClubFacilitiesElements(org.openqa.selenium.By, java.lang.String)[pri:90, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.verifyClubFacilitiesElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="verifyClubFacilitiesElements(org.openqa.selenium.By, java.lang.String)[pri:90, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="verifyClubFacilitiesElements" duration-ms="12" started-at="2018-04-25T12:47:53Z" data-provider="clubFacilitiesElements" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="80" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //div[@class="card-header ellip"]/b[text()='New Test Facility']]]>
+                <![CDATA[By.xpath: //img[contains(@class,'club-image')]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Added facility not found]]>
+                <![CDATA[Club image not found]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 9 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//div[@class="card-header ellip"]/b[text()='New Test Facility']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 9 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//div[@class="card-header ellip"]/b[text()='New Test Facility']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.helpers.Utility.isElementDisplayed(Utility.java:87)
-at com.mobicom.tests.AddFacilityTest.verifyClubFacilitiesElements(AddFacilityTest.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyClubFacilitiesElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyClubFacilitiesElements status=FAILURE method=AddFacilityTest.verifyClubFacilitiesElements(org.openqa.selenium.By, java.lang.String)[pri:90, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.verifyClubFacilitiesElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="verifyClubFacilitiesElements(org.openqa.selenium.By, java.lang.String)[pri:90, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="verifyClubFacilitiesElements" duration-ms="9" started-at="2018-04-25T12:47:53Z" data-provider="clubFacilitiesElements" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="59" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //a[@title='Delete']]]>
+                <![CDATA[By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='City: Bangalore ']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Delete button not found]]>
+                <![CDATA[Club city not found]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 6 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//a[@title='Delete']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 6 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//a[@title='Delete']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.helpers.Utility.isElementDisplayed(Utility.java:87)
-at com.mobicom.tests.AddFacilityTest.verifyClubFacilitiesElements(AddFacilityTest.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyClubFacilitiesElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyClubFacilitiesElements status=FAILURE method=AddFacilityTest.verifyClubFacilitiesElements(org.openqa.selenium.By, java.lang.String)[pri:90, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.clickAddFacilitiesInMenu()]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="clickAddFacilitiesInMenu()[pri:91, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="clickAddFacilitiesInMenu" duration-ms="7" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 6 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//a/b[text()='Published']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 6 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//a/b[text()='Published']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at com.mobicom.helpers.Utility.getMultipleElements(Utility.java:73)
-at com.mobicom.tests.AddFacilityTest.clickAddFacilitiesInMenu(AddFacilityTest.java:56)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickAddFacilitiesInMenu -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickAddFacilitiesInMenu status=FAILURE method=AddFacilityTest.clickAddFacilitiesInMenu()[pri:91, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.clickSelectImage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="clickSelectImage()[pri:92, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="clickSelectImage" duration-ms="38" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 21 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//a[text()='select Images']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 21 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//a[text()='select Images']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.clickSelectImage(AddFacilityTest.java:63)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSelectImage -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickSelectImage status=FAILURE method=AddFacilityTest.clickSelectImage()[pri:92, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="3" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.selectAnImage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="selectAnImage()[pri:93, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="selectAnImage" duration-ms="18" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 13 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//img[@title='newImage']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 13 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//img[@title='newImage']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.selectAnImage(AddFacilityTest.java:70)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectAnImage -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="4" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectAnImage status=FAILURE method=AddFacilityTest.selectAnImage()[pri:93, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.enterFacilityName() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="enterFacilityName()[pri:94, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="enterFacilityName" duration-ms="11" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=id, value=facility_name}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=id, value=facility_name}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:369)
-at org.openqa.selenium.By$ById.findElements(By.java:210)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.enterFacilityName(AddFacilityTest.java:77)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterFacilityName -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enterFacilityName status=FAILURE method=AddFacilityTest.enterFacilityName()[pri:94, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.selectFacilityCategory()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="selectFacilityCategory()[pri:95, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="selectFacilityCategory" duration-ms="8" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 5 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=id, value=facilityId}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 5 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=id, value=facilityId}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsById(RemoteWebDriver.java:369)
-at org.openqa.selenium.By$ById.findElements(By.java:210)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.selectFacilityCategory(AddFacilityTest.java:83)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFacilityCategory -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectFacilityCategory status=FAILURE method=AddFacilityTest.selectFacilityCategory()[pri:95, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.enterFacilityDescription()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="enterFacilityDescription()[pri:106, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="enterFacilityDescription" duration-ms="32" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//iframe[@title='Rich Text Editor, DescriptionID']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 24 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//iframe[@title='Rich Text Editor, DescriptionID']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.enterFacilityDescription(AddFacilityTest.java:90)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterFacilityDescription -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enterFacilityDescription status=FAILURE method=AddFacilityTest.enterFacilityDescription()[pri:106, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="FAIL" signature="enterFacilityRules()[pri:107, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="enterFacilityRules" duration-ms="40" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 33 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//iframe[@title='Rich Text Editor, rulesID']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 33 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//iframe[@title='Rich Text Editor, rulesID']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.enterFacilityRules(AddFacilityTest.java:98)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterFacilityRules -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.enterFacilityRules()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enterFacilityRules status=FAILURE method=AddFacilityTest.enterFacilityRules()[pri:107, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="FAIL" signature="enterFacilityCancellationPolicy()[pri:108, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="enterFacilityCancellationPolicy" duration-ms="9" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//iframe[@title='Rich Text Editor, cancellationPolicy']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//iframe[@title='Rich Text Editor, cancellationPolicy']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.enterFacilityCancellationPolicy(AddFacilityTest.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterFacilityCancellationPolicy -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.enterFacilityCancellationPolicy()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enterFacilityCancellationPolicy status=FAILURE method=AddFacilityTest.enterFacilityCancellationPolicy()[pri:108, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.clickDaysOfWeekButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="clickDaysOfWeekButton()[pri:109, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="clickDaysOfWeekButton" duration-ms="11" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 8 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[@class='multiselect-selected-text']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 8 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[@class='multiselect-selected-text']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.clickDaysOfWeekButton(AddFacilityTest.java:116)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickDaysOfWeekButton -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickDaysOfWeekButton status=FAILURE method=AddFacilityTest.clickDaysOfWeekButton()[pri:109, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.clickSaveButton() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="clickSaveButton()[pri:110, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="clickSaveButton" duration-ms="10" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//input[@value='multiselect-all' and @type='checkbox']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 7 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//input[@value='multiselect-all' and @type='checkbox']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.clickSaveButton(AddFacilityTest.java:122)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSaveButton -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickSaveButton status=FAILURE method=AddFacilityTest.clickSaveButton()[pri:110, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="FAIL" signature="publishNewfacility()[pri:111, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="publishNewfacility" duration-ms="10" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 8 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//div[@class='card-header ellip']/b[text()='AutoFacility']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 8 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//div[@class='card-header ellip']/b[text()='AutoFacility']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.publishNewfacility(AddFacilityTest.java:132)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- publishNewfacility -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.publishNewfacility()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=publishNewfacility status=FAILURE method=AddFacilityTest.publishNewfacility()[pri:111, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddFacilityTest.deleteFacility() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="deleteFacility()[pri:112, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="deleteFacility" duration-ms="11" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 10 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//b[text()='AutoFacility']/../following-sibling::a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 10 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//b[text()='AutoFacility']/../following-sibling::a}
-at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.AddFacilityTest.deleteFacility(AddFacilityTest.java:141)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteFacility -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=deleteFacility status=FAILURE method=AddFacilityTest.deleteFacility()[pri:112, instance:com.mobicom.tests.AddFacilityTest@1a8a8f7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-      </class> <!-- com.mobicom.tests.AddFacilityTest -->
-      <class name="com.mobicom.tests.HomePageTest">
-        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beforeTheClass" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Safari on mac]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTheClass -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.HomePageTest.testHomePageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testHomePageElements(org.openqa.selenium.By, java.lang.String)[pri:51, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="testHomePageElements" duration-ms="25" started-at="2018-04-25T12:47:33Z" data-provider="homePageElements" finished-at="2018-04-25T12:47:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[By.xpath: //h4[text()='Club Management System']]]>
+                <![CDATA[By.xpath: //h5[text()='Amazon Valley']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Page header not found]]>
+                <![CDATA[Club name not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testHomePageElements status=SUCCESS method=HomePageTest.testHomePageElements(org.openqa.selenium.By, java.lang.String)[pri:51, instance:com.mobicom.tests.HomePageTest@51e2adc7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.HomePageTest.testHomePageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testHomePageElements(org.openqa.selenium.By, java.lang.String)[pri:51, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="testHomePageElements" duration-ms="43" started-at="2018-04-25T12:47:33Z" data-provider="homePageElements" finished-at="2018-04-25T12:47:33Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="60" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //b[text()='Year Founded']]]>
+                <![CDATA[By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='City: Bangalore ']/following-sibling::span[text()='Country: India']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Year founded label not found]]>
+                <![CDATA[Club country not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testHomePageElements status=SUCCESS method=HomePageTest.testHomePageElements(org.openqa.selenium.By, java.lang.String)[pri:51, instance:com.mobicom.tests.HomePageTest@51e2adc7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.HomePageTest.testHomePageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testHomePageElements(org.openqa.selenium.By, java.lang.String)[pri:51, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="testHomePageElements" duration-ms="25" started-at="2018-04-25T12:47:33Z" data-provider="homePageElements" finished-at="2018-04-25T12:47:33Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //b[text()='Year Founded']/following-sibling::a]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="64" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club ']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Year founded value not found]]>
+                <![CDATA[Club type not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testHomePageElements status=SUCCESS method=HomePageTest.testHomePageElements(org.openqa.selenium.By, java.lang.String)[pri:51, instance:com.mobicom.tests.HomePageTest@51e2adc7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.HomePageTest.clickDashboardInMenu()]]>
+                <![CDATA[By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club ']/following-sibling::span[contains(text(),'Members')]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Club members field not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="clickDashboardInMenu()[pri:52, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="clickDashboardInMenu" duration-ms="605" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickDashboardInMenu -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickDashboardInMenu status=SUCCESS method=HomePageTest.clickDashboardInMenu()[pri:52, instance:com.mobicom.tests.HomePageTest@51e2adc7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="FAIL" signature="clickClubProfileInMenu()[pri:53, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="clickClubProfileInMenu" duration-ms="10710" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:44Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="71" started-at="2018-05-02T12:22:40Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //h5[text()='Amazon Valley']/../../following-sibling::div/div/div/p/kbd[text()='Allow Access']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Allow access button not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMemberAccessPageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.clickAllowAccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="clickAllowAccess()[pri:202, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="clickAllowAccess" duration-ms="754" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAllowAccess -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAllowAccess status=SUCCESS method=MemberAccessTest.clickAllowAccess()[pri:202, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="53" started-at="2018-05-02T12:22:40Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //div[text()='Amazon Valley']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Header not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="79" started-at="2018-05-02T12:22:40Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //a[text()='ABOUT CLUB']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aboutClubTab not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="43" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //a[text()='ABOUT CLUB']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[facilitiesTab not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="100" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //span[text()='More Information']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[moreInfo button found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="91" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //div[@class="modal-title"]/../button[@class='close' and text()='×']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[closeButton not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="60" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.id: nextTab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nextButton not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //h4[text()='ABOUT US']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aboutUs section not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="FAIL" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="10481" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.id: popupWhitelist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Allow access button not found]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Basic Info not found expected [true] but found [false]]]>
+              <![CDATA[Allow access button not found expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Basic Info not found expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Allow access button not found expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
-at com.mobicom.tests.HomePageTest.clickClubProfileInMenu(HomePageTest.java:51)
+at com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(MemberAccessTest.java:84)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1919,225 +850,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickClubProfileInMenu -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:33Z" finished-at="2018-04-25T12:47:33Z">
+        </test-method> <!-- verifyAllowMemberAccessPageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.HomePageTest.clickClubProfileInMenu()]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:44Z" finished-at="2018-04-25T12:47:44Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-05-02T12:22:51Z" finished-at="2018-05-02T12:22:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickClubProfileInMenu status=FAILURE method=HomePageTest.clickClubProfileInMenu()[pri:53, instance:com.mobicom.tests.HomePageTest@51e2adc7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=FAILURE method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:44Z" finished-at="2018-04-25T12:47:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.HomePageTest.clickBasicInfoInMenu()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="clickBasicInfoInMenu()[pri:54, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="clickBasicInfoInMenu" duration-ms="8535" started-at="2018-04-25T12:47:44Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[text()='Basic Information']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[text()='Basic Information']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.HomePageTest.clickBasicInfoInMenu(HomePageTest.java:57)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickBasicInfoInMenu -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickBasicInfoInMenu status=FAILURE method=HomePageTest.clickBasicInfoInMenu()[pri:54, instance:com.mobicom.tests.HomePageTest@51e2adc7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="FAIL" signature="clickClubFacilitiesInMenu()[pri:55, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="clickClubFacilitiesInMenu" duration-ms="22" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 17 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[text()='Club Profile']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: A session with id = 'FA7C9533-8A52-441C-AFE9-57B4A37B77DF' was not found.
-Command duration or timeout: 17 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
-System info: host: 'Mobicoms-Mac-mini-2.local', ip: 'fe80:0:0:0:1429:950e:2263:4826%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
-Session ID: FA7C9533-8A52-441C-AFE9-57B4A37B77DF
-*** Element info: {Using=xpath, value=//span[text()='Club Profile']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:579)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:425)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-at com.mobicom.helpers.Utility.waitForElement(Utility.java:38)
-at com.mobicom.helpers.Utility.findElement(Utility.java:53)
-at com.mobicom.tests.HomePageTest.clickClubFacilitiesInMenu(HomePageTest.java:64)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickClubFacilitiesInMenu -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.HomePageTest.clickClubFacilitiesInMenu()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.HomePageTest@51e2adc7]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-04-25T12:47:53Z" finished-at="2018-04-25T12:47:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickClubFacilitiesInMenu status=FAILURE method=HomePageTest.clickClubFacilitiesInMenu()[pri:55, instance:com.mobicom.tests.HomePageTest@51e2adc7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-      </class> <!-- com.mobicom.tests.HomePageTest -->
+      </class> <!-- com.mobicom.tests.MemberAccessTest -->
     </test> <!-- Chrome on mac -->
   </suite> <!-- Suite -->
 </testng-results>

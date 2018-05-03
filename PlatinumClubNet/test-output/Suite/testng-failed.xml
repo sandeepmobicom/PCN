@@ -2,39 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Chrome on mac(failed)">
-    <parameter name="testItem" value="Safari on mac"/>
+    <parameter name="testItem" value="Chrome on mac"/>
     <classes>
-      <class name="com.mobicom.tests.AddFacilityTest">
+      <class name="com.mobicom.tests.MemberAccessTest">
         <methods>
-          <include name="clickClubFacilitiesInMenu"/>
-          <include name="selectFacilityCategory"/>
-          <include name="deleteFacility"/>
+          <include name="verifyAllowMemberAccessPageElements" invocation-numbers="7"/>
           <include name="exportReports"/>
-          <include name="verifyClubFacilitiesElements" invocation-numbers="0 1 2"/>
-          <include name="beforeTheClass"/>
-          <include name="clickSaveButton"/>
-          <include name="publishNewfacility"/>
-          <include name="beginTest"/>
-          <include name="selectAnImage"/>
-          <include name="enterFacilityDescription"/>
-          <include name="enterFacilityName"/>
-          <include name="enterFacilityCancellationPolicy"/>
-          <include name="enterFacilityRules"/>
-          <include name="clickSelectImage"/>
-          <include name="clickAddFacilitiesInMenu"/>
-          <include name="clickDaysOfWeekButton"/>
-        </methods>
-      </class> <!-- com.mobicom.tests.AddFacilityTest -->
-      <class name="com.mobicom.tests.HomePageTest">
-        <methods>
-          <include name="clickClubFacilitiesInMenu"/>
-          <include name="clickClubProfileInMenu"/>
-          <include name="exportReports"/>
-          <include name="clickBasicInfoInMenu"/>
           <include name="beginTest"/>
           <include name="beforeTheClass"/>
         </methods>
-      </class> <!-- com.mobicom.tests.HomePageTest -->
+      </class> <!-- com.mobicom.tests.MemberAccessTest -->
     </classes>
   </test> <!-- Chrome on mac(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -44,11 +44,6 @@ public class Utility {
 
 	}
 
-	public static void waitForMobileElement(int timeUnits, MobileElement webElementName) {
-		WebDriverWait wait = new WebDriverWait(driver, timeUnits);
-		wait.until(ExpectedConditions.elementToBeClickable(webElementName));
-	}
-
 	public static WebElement findElement(By elementToBeFound) {
 		waitForElement(10, elementToBeFound);
 		return driver.findElement(elementToBeFound);
@@ -57,11 +52,6 @@ public class Utility {
 	public static WebElement findElementVisible(By elementToBeFound) {
 		waitForElementVisible(30, elementToBeFound);
 		return driver.findElement(elementToBeFound);
-	}
-
-	public static MobileElement findMobileElement(MobileElement elementToBeFound) {
-		waitForMobileElement(30, elementToBeFound);
-		return elementToBeFound;
 	}
 
 	public WebElement clickAnElement(By elementToBeClicked, By elementToBeReturned) {

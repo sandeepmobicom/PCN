@@ -18,16 +18,21 @@ public class MemberAccessPage extends Utility {
 	public By clubType=By.xpath("//h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club ']");
 	public By clubMembers=By.xpath("//h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club ']/following-sibling::span[contains(text(),'Members')]");
 	public By allowAccess=By.xpath("//h5[text()='Amazon Valley']/../../following-sibling::div/div/div/p/kbd[text()='Allow Access']");
+	public By removeAccess=By.xpath("//h5[text()='Amazon Valley']/../../following-sibling::div/div/div/p/kbd[text()='Remove Access']");
 	public By allowAccessPageHeader=By.xpath("//div[text()='Amazon Valley']");
-	
 	public By aboutClubTab=By.xpath("//a[text()='ABOUT CLUB']");
 	public By facilitiesTab=By.xpath("//a[text()='ABOUT CLUB']");
 	public By moreInfo=By.xpath("//span[text()='More Information']");
-	public By closeButton=By.xpath("//div[@class=\"modal-title\"]/../button[@class='close' and text()='×']");
+	public By closeButton=By.xpath("//div[@class='modal-title']/../button[@class='close' and text()='×']");
 	public By nextButton=By.id("nextTab");
 	public By previousButton=By.id("prevTab");
 	public By aboutUs=By.xpath("//h4[text()='ABOUT US']");
 	public By allowAccessInDetail=By.id("popupWhitelist");
+	public By removeAccessInDetail=By.id("popupWhitelist");
+	public By closeButtonInDetail=By.xpath("//a[text()='Add Facility']/preceding-sibling::button[@class='close']");
+	public By facilityWhitelistingHeader=By.xpath("//h4[text()='Whitelisting My Facilities']");
+	public By confirmationMessageForAllowAccess=By.xpath("//span[text()='Club whitelisted successfully!']");
+	public By confirmationMessageForRemoveAccess=By.xpath("//span[text()='Club whitelisted successfully!']");
 	
 
 	public MemberAccessPage(WebDriver driver) {

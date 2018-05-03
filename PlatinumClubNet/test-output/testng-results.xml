@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="22" passed="21">
+<testng-results skipped="0" failed="1" ignored="0" total="24" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21068" started-at="2018-05-02T12:22:31Z" finished-at="2018-05-02T12:22:52Z">
+  <suite name="Suite" duration-ms="21894" started-at="2018-05-03T09:17:50Z" finished-at="2018-05-03T09:18:11Z">
     <groups>
     </groups>
-    <test name="Chrome on mac" duration-ms="21068" started-at="2018-05-02T12:22:31Z" finished-at="2018-05-02T12:22:52Z">
+    <test name="Chrome on mac" duration-ms="21894" started-at="2018-05-03T09:17:50Z" finished-at="2018-05-03T09:18:11Z">
       <class name="com.mobicom.tests.LoginTest">
-        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beforeTheClass" is-config="true" duration-ms="4561" started-at="2018-05-02T12:22:31Z" finished-at="2018-05-02T12:22:35Z">
+        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="beforeTheClass" is-config="true" duration-ms="2933" started-at="2018-05-03T09:17:50Z" finished-at="2018-05-03T09:17:52Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTheClass -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="5" started-at="2018-05-02T12:22:35Z" finished-at="2018-05-02T12:22:35Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="beginTest" is-config="true" duration-ms="5" started-at="2018-05-03T09:17:52Z" finished-at="2018-05-03T09:17:52Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="testLoginPageElements" duration-ms="141" started-at="2018-05-02T12:22:35Z" data-provider="loginPageElements" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@7a187f14]" name="testLoginPageElements" duration-ms="84" started-at="2018-05-03T09:17:52Z" data-provider="loginPageElements" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
@@ -45,18 +45,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="7" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="exportReports" is-config="true" duration-ms="8" started-at="2018-05-03T09:17:53Z" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:53Z" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="testLoginPageElements" duration-ms="74" started-at="2018-05-02T12:22:36Z" data-provider="loginPageElements" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@7a187f14]" name="testLoginPageElements" duration-ms="70" started-at="2018-05-03T09:17:53Z" data-provider="loginPageElements" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
@@ -83,18 +83,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:53Z" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="testLoginPageElements" duration-ms="71" started-at="2018-05-02T12:22:36Z" data-provider="loginPageElements" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:53Z" finished-at="2018-05-03T09:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.LoginTest.testLoginPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@7a187f14]" name="testLoginPageElements" duration-ms="63" started-at="2018-05-03T09:17:53Z" data-provider="loginPageElements" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
@@ -110,29 +121,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:53Z" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.LoginTest.testLoginPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="beginTest" is-config="true" duration-ms="2" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:36Z">
+        <test-method status="PASS" signature="loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@7a187f14]" name="loginToClub" duration-ms="1692" started-at="2018-05-03T09:17:53Z" finished-at="2018-05-03T09:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToClub -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:53Z" finished-at="2018-05-03T09:17:53Z">
           <params>
             <param index="0">
               <value>
@@ -143,28 +147,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="loginToClub" duration-ms="1919" started-at="2018-05-02T12:22:36Z" finished-at="2018-05-02T12:22:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToClub -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:38Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:54Z" finished-at="2018-05-03T09:17:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToClub status=SUCCESS method=LoginTest.loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@307f6b8c] output={null}]]]>
+                <![CDATA[[TestResult name=loginToClub status=SUCCESS method=LoginTest.loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@7a187f14] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.mobicom.tests.LoginTest@307f6b8c]" name="endTest" is-config="true" duration-ms="595" started-at="2018-05-02T12:22:51Z" finished-at="2018-05-02T12:22:52Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.mobicom.tests.LoginTest@7a187f14]" name="endTest" is-config="true" duration-ms="297" started-at="2018-05-03T09:18:11Z" finished-at="2018-05-03T09:18:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.mobicom.tests.LoginTest -->
       <class name="com.mobicom.tests.MemberAccessTest">
-        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beforeTheClass" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:38Z">
+        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beforeTheClass" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:54Z" finished-at="2018-05-03T09:17:54Z">
           <params>
             <param index="0">
               <value>
@@ -175,11 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTheClass -->
-        <test-method status="PASS" signature="clickMemberAccessInMenu()[pri:200, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="clickMemberAccessInMenu" duration-ms="1379" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickMemberAccessInMenu -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:38Z" finished-at="2018-05-02T12:22:38Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:54Z" finished-at="2018-05-03T09:17:54Z">
           <params>
             <param index="0">
               <value>
@@ -190,18 +186,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="clickMemberAccessInMenu()[pri:200, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="clickMemberAccessInMenu" duration-ms="1331" started-at="2018-05-03T09:17:54Z" finished-at="2018-05-03T09:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMemberAccessInMenu -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickMemberAccessInMenu status=SUCCESS method=MemberAccessTest.clickMemberAccessInMenu()[pri:200, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=clickMemberAccessInMenu status=SUCCESS method=MemberAccessTest.clickMemberAccessInMenu()[pri:200, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="42" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -217,29 +228,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -250,7 +250,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="80" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="92" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -266,18 +266,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -288,7 +288,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="59" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="57" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -304,18 +304,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -326,7 +326,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="64" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -342,18 +342,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -364,7 +364,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="60" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="59" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -380,7 +380,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -391,18 +402,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="64" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="59" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -418,18 +418,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:39Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="63" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -445,7 +456,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:39Z" finished-at="2018-05-02T12:22:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -456,18 +478,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyMemberAccessPageElements" duration-ms="71" started-at="2018-05-02T12:22:40Z" data-provider="memberAccessPageElements" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyMemberAccessPageElements" duration-ms="67" started-at="2018-05-03T09:17:56Z" data-provider="memberAccessPageElements" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -483,29 +494,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMemberAccessPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:201, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:56Z">
           <params>
             <param index="0">
               <value>
@@ -516,22 +516,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="clickAllowAccess()[pri:202, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="clickAllowAccess" duration-ms="754" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="clickAllowAccess()[pri:202, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="clickAllowAccess" duration-ms="691" started-at="2018-05-03T09:17:56Z" finished-at="2018-05-03T09:17:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAllowAccess -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickAllowAccess status=SUCCESS method=MemberAccessTest.clickAllowAccess()[pri:202, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=clickAllowAccess status=SUCCESS method=MemberAccessTest.clickAllowAccess()[pri:202, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -542,7 +542,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="53" started-at="2018-05-02T12:22:40Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyAllowMemberAccessPageElements" duration-ms="87" started-at="2018-05-03T09:17:57Z" data-provider="allowAccessPageElements" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -558,18 +558,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="3" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:40Z" finished-at="2018-05-02T12:22:40Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="3" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -580,7 +580,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="79" started-at="2018-05-02T12:22:40Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyAllowMemberAccessPageElements" duration-ms="73" started-at="2018-05-03T09:17:57Z" data-provider="allowAccessPageElements" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -596,18 +596,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -618,7 +618,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="43" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyAllowMemberAccessPageElements" duration-ms="48" started-at="2018-05-03T09:17:57Z" data-provider="allowAccessPageElements" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -634,18 +634,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -656,7 +656,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="100" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyAllowMemberAccessPageElements" duration-ms="69" started-at="2018-05-03T09:17:57Z" data-provider="allowAccessPageElements" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -672,18 +672,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -694,11 +694,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="91" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyAllowMemberAccessPageElements" duration-ms="124" started-at="2018-05-03T09:17:57Z" data-provider="allowAccessPageElements" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //div[@class="modal-title"]/../button[@class='close' and text()='×']]]>
+                <![CDATA[By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×']]]>
               </value>
             </param>
             <param index="1">
@@ -710,29 +710,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="3" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="60" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyAllowMemberAccessPageElements" duration-ms="60" started-at="2018-05-03T09:17:57Z" data-provider="allowAccessPageElements" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -748,18 +737,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -770,7 +748,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="62" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="verifyAllowMemberAccessPageElements" duration-ms="64" started-at="2018-05-03T09:17:57Z" data-provider="allowAccessPageElements" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -786,40 +786,91 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="FAIL" signature="verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="verifyAllowMemberAccessPageElements" duration-ms="10481" started-at="2018-05-02T12:22:41Z" data-provider="allowAccessPageElements" finished-at="2018-05-02T12:22:51Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.id: popupWhitelist]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Allow access button not found]]>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.clickNextButton()]]>
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="clickNextButton()[pri:204, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="clickNextButton" duration-ms="248" started-at="2018-05-03T09:17:57Z" finished-at="2018-05-03T09:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNextButton -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:58Z" finished-at="2018-05-03T09:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickNextButton status=SUCCESS method=MemberAccessTest.clickNextButton()[pri:204, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="clickAllowAccessButton()[pri:205, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="clickAllowAccessButton" duration-ms="844" started-at="2018-05-03T09:17:58Z" finished-at="2018-05-03T09:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAllowAccessButton -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-03T09:17:58Z" finished-at="2018-05-03T09:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.clickAllowAccessButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:59Z" finished-at="2018-05-03T09:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAllowAccessButton status=SUCCESS method=MemberAccessTest.clickAllowAccessButton()[pri:205, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-05-03T09:17:59Z" finished-at="2018-05-03T09:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.MemberAccessTest.clickCloseButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="FAIL" signature="clickCloseButton()[pri:206, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="clickCloseButton" duration-ms="12517" started-at="2018-05-03T09:17:59Z" finished-at="2018-05-03T09:18:11Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Allow access button not found expected [true] but found [false]]]>
+              <![CDATA[Whitelisting is not successful expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Allow access button not found expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Whitelisting is not successful expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
-at com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(MemberAccessTest.java:84)
+at com.mobicom.tests.MemberAccessTest.clickCloseButton(MemberAccessTest.java:106)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -850,23 +901,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAllowMemberAccessPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-05-02T12:22:41Z" finished-at="2018-05-02T12:22:41Z">
+        </test-method> <!-- clickCloseButton -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@6f195bc3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-05-03T09:18:11Z" finished-at="2018-05-03T09:18:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.MemberAccessTest@7a187f14]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-05-02T12:22:51Z" finished-at="2018-05-02T12:22:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllowMemberAccessPageElements status=FAILURE method=MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.selenium.By, java.lang.String)[pri:203, instance:com.mobicom.tests.MemberAccessTest@7a187f14] output={null}]]]>
+                <![CDATA[[TestResult name=clickCloseButton status=FAILURE method=MemberAccessTest.clickCloseButton()[pri:206, instance:com.mobicom.tests.MemberAccessTest@6f195bc3] output={null}]]]>
               </value>
             </param>
           </params>

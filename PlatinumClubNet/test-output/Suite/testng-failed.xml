@@ -6,8 +6,8 @@
     <classes>
       <class name="com.mobicom.tests.MemberAccessTest">
         <methods>
-          <include name="verifyAllowMemberAccessPageElements" invocation-numbers="7"/>
           <include name="exportReports"/>
+          <include name="clickCloseButton"/>
           <include name="beginTest"/>
           <include name="beforeTheClass"/>
         </methods>

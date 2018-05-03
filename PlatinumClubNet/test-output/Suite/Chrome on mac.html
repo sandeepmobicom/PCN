@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chrome on mac</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 02 17:52:31 IST 2018</td>
+<td>Started on:</td><td>Thu May 03 14:47:50 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21068 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21894 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.id: popupWhitelist, Allow access button not found</td>
-<td><div><pre>java.lang.AssertionError: Allow access button not found expected [true] but found [false]
-	at com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(MemberAccessTest.java:84)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1419064126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1419064126'><pre>java.lang.AssertionError: Allow access button not found expected [true] but found [false]
+<td title='com.mobicom.tests.MemberAccessTest.clickCloseButton()'><b>clickCloseButton</b><br>Test class: com.mobicom.tests.MemberAccessTest</td>
+<td><div><pre>java.lang.AssertionError: Whitelisting is not successful expected [true] but found [false]
+	at com.mobicom.tests.MemberAccessTest.clickCloseButton(MemberAccessTest.java:106)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1740223770", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1740223770'><pre>java.lang.AssertionError: Whitelisting is not successful expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
-	at com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(MemberAccessTest.java:84)
+	at com.mobicom.tests.MemberAccessTest.clickCloseButton(MemberAccessTest.java:106)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,8 +110,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>10</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>12</td>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -124,107 +124,117 @@ function toggleAllBoxes() {
 <td title='com.mobicom.tests.MemberAccessTest.clickAllowAccess()'><b>clickAllowAccess</b><br>Test class: com.mobicom.tests.MemberAccessTest</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
+<tr>
+<td title='com.mobicom.tests.MemberAccessTest.clickAllowAccessButton()'><b>clickAllowAccessButton</b><br>Test class: com.mobicom.tests.MemberAccessTest</td>
+<td></td>
+<td>0</td>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.clickMemberAccessInMenu()'><b>clickMemberAccessInMenu</b><br>Test class: com.mobicom.tests.MemberAccessTest</td>
 <td></td>
 <td>1</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
+<tr>
+<td title='com.mobicom.tests.MemberAccessTest.clickNextButton()'><b>clickNextButton</b><br>Test class: com.mobicom.tests.MemberAccessTest</td>
+<td></td>
+<td>0</td>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.LoginTest.loginToClub()'><b>loginToClub</b><br>Test class: com.mobicom.tests.LoginTest</td>
 <td></td>
 <td>1</td>
-<td>com.mobicom.tests.LoginTest@307f6b8c</td></tr>
+<td>com.mobicom.tests.LoginTest@7a187f14</td></tr>
 <tr>
 <td title='com.mobicom.tests.LoginTest.testLoginPageElements()'><b>testLoginPageElements</b><br>Test class: com.mobicom.tests.LoginTest<br>Parameters: By.xpath: //input[@name='username'], Username field not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.LoginTest@307f6b8c</td></tr>
+<td>com.mobicom.tests.LoginTest@7a187f14</td></tr>
 <tr>
 <td title='com.mobicom.tests.LoginTest.testLoginPageElements()'><b>testLoginPageElements</b><br>Test class: com.mobicom.tests.LoginTest<br>Parameters: By.xpath: //input[@name='password'], Password field not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.LoginTest@307f6b8c</td></tr>
+<td>com.mobicom.tests.LoginTest@7a187f14</td></tr>
 <tr>
 <td title='com.mobicom.tests.LoginTest.testLoginPageElements()'><b>testLoginPageElements</b><br>Test class: com.mobicom.tests.LoginTest<br>Parameters: By.xpath: //button[@id='proceed-btn'], Login button not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.LoginTest@307f6b8c</td></tr>
+<td>com.mobicom.tests.LoginTest@7a187f14</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //div[text()='Amazon Valley'], Header not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //a[text()='ABOUT CLUB'], facilitiesTab not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //span[text()='More Information'], moreInfo button found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
-<td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //div[@class="modal-title"]/../button[@class='close' and text()='×'], closeButton not found</td>
+<td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.id: nextTab, nextButton not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements()'><b>verifyAllowMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h4[text()='ABOUT US'], aboutUs section not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h3[text()='PlatinumClubNet Member Access'], Header not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //img[contains(@class,'club-image')], Club image not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='City: Bangalore '], Club city not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h5[text()='Amazon Valley'], Club name not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='City: Bangalore ']/following-sibling::span[text()='Country: India'], Club country not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club '], Club type not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club ']/following-sibling::span[contains(text(),'Members')], Club members field not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 <tr>
 <td title='com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements()'><b>verifyMemberAccessPageElements</b><br>Test class: com.mobicom.tests.MemberAccessTest<br>Parameters: By.xpath: //h5[text()='Amazon Valley']/../../following-sibling::div/div/div/p/kbd[text()='Allow Access'], Allow access button not found</td>
 <td></td>
 <td>0</td>
-<td>com.mobicom.tests.MemberAccessTest@7a187f14</td></tr>
+<td>com.mobicom.tests.MemberAccessTest@6f195bc3</td></tr>
 </table><p>
 </body>
 </html>

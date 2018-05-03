@@ -6,9 +6,9 @@
 		<parameter name="testItem" value="Chrome on mac" />
 		<classes>
 			<class name="com.mobicom.tests.LoginTest" />
- 			<class name="com.mobicom.tests.HomePageTest" />
+<!-- 			<class name="com.mobicom.tests.HomePageTest" />
 			<class name="com.mobicom.tests.AddFacilityTest" /> 
-			<class name="com.mobicom.tests.AddCurateEventTest" />
+			<class name="com.mobicom.tests.AddCurateEventTest" /> -->
 			<class name="com.mobicom.tests.MemberAccessTest" />
 		</classes>
 	</test>

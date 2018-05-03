@@ -61,7 +61,7 @@ public class MemberAccessTest extends BaseTest {
 
 	@Test(priority = 202)
 	public void clickAllowAccess() {
-		Utility.getMultipleElements(memberAccessObject.allowAccess).get(0).click();
+		Utility.findElement(memberAccessObject.allowAccess).click();
 		assertTrue(Utility.isElementDisplayed(memberAccessObject.allowAccessPageHeader), "Allow access page not found");
 	}
 
@@ -77,12 +77,75 @@ public class MemberAccessTest extends BaseTest {
 		return input;
 	}
 
-	//  { memberAccessObject.previousButton, "previousButton not found" }
-	//	{ memberAccessObject.allowAccessInDetail, "Allow access button not found" }
-
 	@Test(priority = 203, dataProvider = "allowAccessPageElements")
 	public void verifyAllowMemberAccessPageElements(By element, String str) {
 		assertTrue(Utility.isElementDisplayed(element), str);
+	}
+	
+	@Test(priority = 204)
+	public void clickNextButton() {
+		Utility.findElement(memberAccessObject.nextButton).click();
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.previousButton), "Previous button not found");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.allowAccessInDetail), "Allow access button not found");
+	}
+	
+	@Test(priority = 205)
+	public void clickAllowAccessButton() {
+		Utility.findElement(memberAccessObject.allowAccessInDetail).click();		
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.facilityWhitelistingHeader), "Facility whitelisting page not displayed");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.confirmationMessageForAllowAccess), "Confirmation message not displayed");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.closeButtonInDetail), "Close button not found");
+	}
+	
+	@Test(priority = 206)
+	public void clickCloseButton() throws InterruptedException {
+		Utility.findElement(memberAccessObject.confirmationMessageForAllowAccess).click();
+		Utility.findElement(memberAccessObject.closeButtonInDetail).click();
+		Thread.sleep(2000);
+		Utility.findElement(memberAccessObject.closeButton).click();
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.removeAccess), "Whitelisting is not successful");
+	}
+	
+	
+	
+	//TODO
+	//Remove access
+	
+	
+	
+	@Test(priority = 215)
+	public void clickRemoveAccess() {
+		Utility.findElement(memberAccessObject.removeAccess).click();
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.allowAccessPageHeader), "Allow access page not found");
+	}
+
+	@Test(priority = 216, dataProvider = "allowAccessPageElements")
+	public void verifyRemoveMemberAccessPageElements(By element, String str) {
+		assertTrue(Utility.isElementDisplayed(element), str);
+	}
+	
+	@Test(priority = 217)
+	public void clickNextButtonInRemoveAccess() {
+		Utility.findElement(memberAccessObject.nextButton).click();
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.previousButton), "Previous button not found");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.removeAccessInDetail), "Remove access button not found");
+	}
+	
+	@Test(priority = 218)
+	public void clickRemoveAccessButton() {
+		Utility.findElement(memberAccessObject.removeAccessInDetail).click();		
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.facilityWhitelistingHeader), "Facility whitelisting page not displayed");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.confirmationMessageForRemoveAccess), "Confirmation message not displayed");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.closeButtonInDetail), "Close button not found");
+	}
+	
+	@Test(priority = 219)
+	public void clickCloseButtonInRemoveAccessPage() throws InterruptedException {
+		Utility.findElement(memberAccessObject.confirmationMessageForRemoveAccess).click();
+		Utility.findElement(memberAccessObject.closeButtonInDetail).click();
+		Thread.sleep(2000);
+		Utility.findElement(memberAccessObject.closeButton).click();
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.allowAccess), "Removing access is not successful");
 	}
 
 }

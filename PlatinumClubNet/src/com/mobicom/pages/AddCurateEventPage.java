@@ -9,13 +9,13 @@ public class AddCurateEventPage extends Utility {
 
 	WebDriver driver;
 	
-	public By curateFacilitiesInMenu=By.xpath("//span[text()='Curate - Facilities for Social Events']");
-	public By listOfFacilitiesInMenu=By.xpath("//a[@id='menu_curatedEvents']/span[text()='List of Facilities']");
+	public By curateFacilitiesInMenu=By.xpath("//span[text()='Curated Events']");
+	public By clubFacilitiesInMenu=By.xpath("//a[@id='menu_curatedEvents']/span[text()='Club Facilities']");
 	public By statusInMenu=By.xpath("//a[@id='menu_report_curate-facility-event']/span[text()='Status']");
-	public By curateFacilitiesHeader=By.xpath("//h3[text()='Curate - Facilities for Social Events']");
+	public By curateFacilitiesHeader=By.xpath("//h3[text()='Curated Events']");
 	public By curateFacilitiesDescription=By.xpath("//div[@class='text-justify']/p");
 	public By addCurateEvents=By.xpath("//span[text()='Add Facilities For Curated Events']");
-	public By editCurateEventQuestionnaire=By.xpath("//span[text()='Add Facilities For Curated Events']");
+	public By curateEventQuestionnaire=By.xpath("//a[@id='menu_curate_event_questionnaire']/span[text()='Curation Profile']");
 	public By facilityDropDown=By.id("facility_id");
 	public By addFacilityButton=By.xpath("//a[@class='btn submit-btn facility_choice_add']");
 	public By remarksFieldIframe=By.xpath("//iframe[@title='Rich Text Editor, sponsor_desc_id']");
@@ -29,8 +29,8 @@ public class AddCurateEventPage extends Utility {
 	public By saveButton = By.id("action_save");
 	public By publishButton = By.id("action_publish");
 	public By facilityName = By.xpath("//input[@id='facility_name']");
-	public By addedCurateEvent = By.xpath("//td[contains(text(),'My Test Facility')]");
-	public By settingsButtonForAddedEvent = By.xpath("//div/i[contains(@class,'dropdown-toggle')]");
+	public By addedCurateEvent = By.xpath("//td[contains(text(),'OTHER')]");
+	public By settingsButtonForAddedEvent = By.xpath("//td[contains(text(),'OTHER')]/following-sibling::td/div/i[contains(@class,'dropdown-toggle')]");
 	public By modifyButton = By.xpath("//a[text()='MODIFY']");
 	public By deleteButton = By.xpath("//a[text()='DELETE']");
 

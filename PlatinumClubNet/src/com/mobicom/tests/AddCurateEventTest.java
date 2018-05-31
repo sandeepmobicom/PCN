@@ -36,14 +36,15 @@ public class AddCurateEventTest extends BaseTest {
 	@Test(priority = 150)
 	public void clickCurateEventsInMenu() {
 		Utility.findElement(addCurateObject.curateFacilitiesInMenu).click();
-		assertTrue(Utility.isElementDisplayed(addCurateObject.listOfFacilitiesInMenu),
-				"List of facilities option not found");
+		assertTrue(Utility.isElementDisplayed(addCurateObject.clubFacilitiesInMenu),
+				"Club facilities option not found");
+		assertTrue(Utility.isElementDisplayed(addCurateObject.curateEventQuestionnaire), "Questionnaire option not found");
 		assertTrue(Utility.isElementDisplayed(addCurateObject.statusInMenu), "Status option not found");
 	}
 
 	@Test(priority = 151)
 	public void clickListOfCurateEventsInMenu() {
-		Utility.findElement(addCurateObject.listOfFacilitiesInMenu).click();
+		Utility.findElement(addCurateObject.clubFacilitiesInMenu).click();
 		assertTrue(Utility.isElementDisplayed(addCurateObject.curateFacilitiesHeader),
 				"Curate events section not loaded");
 	}
@@ -52,8 +53,7 @@ public class AddCurateEventTest extends BaseTest {
 	public Object[][] getCurateEventsPageElements() {
 		Object[][] input = { { addCurateObject.curateFacilitiesHeader, "Curate facilities header not found" },
 				{ addCurateObject.curateFacilitiesDescription, "Description not found" },
-				{ addCurateObject.addCurateEvents, "Add curate events button not found" },
-				{ addCurateObject.editCurateEventQuestionnaire, "Edit curate events questionnaire button not found" } };
+				{ addCurateObject.addCurateEvents, "Add curate events button not found" } };
 		return input;
 	}
 
@@ -92,10 +92,10 @@ public class AddCurateEventTest extends BaseTest {
 	@Test(priority = 155)
 	public void selectFacility() {
 		Select select = new Select(Utility.findElement(addCurateObject.facilityDropDown));
-		select.selectByVisibleText("My Test Facility");
+		select.selectByVisibleText("OTHER");
 		System.out.println(select.getFirstSelectedOption().getText());
 		assertEquals(Utility.findElementVisible(addCurateObject.facilityName).getAttribute("value"),
-				"My Test Facility");
+				"OTHER");
 	}
 
 	@Test(priority = 156)
@@ -159,8 +159,8 @@ public class AddCurateEventTest extends BaseTest {
 		alert = driver.switchTo().alert();
 		alert.accept();
 		Thread.sleep(2000);
-		assertEquals(Utility.getMultipleElements(addCurateObject.facilityName).size(), 0,
-				"Curate event detail not displayed");
+		assertEquals(Utility.getMultipleElements(addCurateObject.addedCurateEvent).size(), 0,
+				"Curate event not deleted");
 	}
 
 }

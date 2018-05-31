@@ -19,11 +19,11 @@ public class LoginPage extends Utility {
 	public By yearFoundedLabel = By.xpath("//b[text()='Year Founded']");
 	public By yearFoundedValue = By.xpath("//b[text()='Year Founded']/following-sibling::a");
 	public By clubProfileMenu = By.xpath("//span[text()='Club Profile']");
-	public By basicInfoSubMenu = By.xpath("//span[text()='Basic Information']");
+	public By myClubSubMenu = By.xpath("//span[text()='My Club']");
 	public By clubFacilitiesSubMenu = By.xpath("//span[text()='Club Facilities']");
 	public By clubFacilitiesTitle = By.xpath("//h3[text()='Facilities on Your Club Profile']");
 	public By dashBoardMenu = By.xpath("//span[text()='Dashboard']");
-	public By dashBoardHeader = By.xpath("//h3[text()='Dashboard ']");
+	public By dashBoardHeader = By.xpath("//h3[text()='Dashboard']");
 	public By memberAccessDashBoardOption = By.xpath("//a[text()='Requests for Member Access ']");
 	public By addfacilityButton=By.xpath("//p[@class=\"card-header\"]/b");
 

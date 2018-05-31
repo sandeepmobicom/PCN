@@ -48,14 +48,14 @@ public class HomePageTest extends BaseTest {
 	@Test(priority = 53)
 	public void clickClubProfileInMenu() throws InterruptedException {
 		Thread.sleep(2000);
-		Utility.findElement(loginObject.clubProfileMenu).click();
-		assertTrue(Utility.isElementDisplayed(loginObject.basicInfoSubMenu), "Basic Info not found");
+		Utility.findElement(loginObject.myClubSubMenu).click();
+		assertTrue(Utility.isElementDisplayed(loginObject.clubProfileMenu), "Club profile not found");
 		assertTrue(Utility.isElementDisplayed(loginObject.clubFacilitiesSubMenu), "Club facilities not found in menu");
 	}
 
 	@Test(priority = 54)
 	public void clickBasicInfoInMenu() {
-		Utility.findElement(loginObject.basicInfoSubMenu).click();
+		Utility.findElement(loginObject.clubProfileMenu).click();
 		assertTrue(Utility.isElementDisplayed(loginObject.clubImage), "Club image not found");
 		assertTrue(Utility.isElementDisplayed(loginObject.clubName), "Club name not found");
 	}

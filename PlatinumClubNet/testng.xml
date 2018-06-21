@@ -9,7 +9,8 @@
  			<!-- <class name="com.mobicom.tests.HomePageTest" /> 
 		<class name="com.mobicom.tests.AddFacilityTest" /> --> 
 			<!-- <class name="com.mobicom.tests.AddCurateEventTest" />  -->
-	<class name="com.mobicom.tests.MemberAccessTest" />
+	<!-- <class name="com.mobicom.tests.MemberAccessTest" /> -->
+	 <class name="com.mobicom.tests.ManageMembersTest" />
 		</classes>
 	</test>
 

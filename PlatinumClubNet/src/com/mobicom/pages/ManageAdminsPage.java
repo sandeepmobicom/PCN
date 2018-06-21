@@ -9,8 +9,21 @@ public class ManageAdminsPage extends Utility {
 
 	WebDriver driver;
 	
-	public By manageAdminsOptionInMenu=By.xpath("//span[text()='Manage Members']");
-
+	public By manageAdminsOptionInMenu=By.xpath("//span[text()='Manage Admins']");
+	public By adminListingHeader=By.xpath("//h3[text()='Sub Admin Listing']");
+	public By addAdminButton=By.xpath("//span[contains(text(),'Add Admin')]");
+	public By serialNumberColumn=By.xpath("//th[text()='Sr.No']");
+	public By firstNameColumn=By.xpath("//th[contains(text(),'First Name')]");
+	public By lastNameColumn=By.xpath("//th[contains(text(),'Last Name')]");
+	public By registeredColumn=By.xpath("//th[contains(text(),'Registered?')]");
+	public By actionColumn=By.xpath("//th[contains(text(),'Action')]");
+	public By addAdminPageHeader=By.xpath("//h3[contains(text(),'Add Admin')]");
+	public By firstNameField=By.id("first_name");
+	public By lastnameField=By.id("last_name");
+	public By emailField=By.id("email");
+	public By cancelButton=By.xpath("//a[text()='Cancel']");
+	public By AddAdminButtonInDetail=By.xpath("//button[contains(text(),'Add Admin')]");
+	public By confirmationMessage=By.xpath("//div[contains(text(),'Admin updated successfully!')]");
 	
 	public ManageAdminsPage(WebDriver driver) {
 		super(driver);

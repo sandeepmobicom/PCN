@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">32 methods,   32 passed</span>
+                    <span class="method-stats">30 methods, 1 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="deleteCurateEvent">deleteCurateEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,42 +116,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickAcceptingRequestsButton">clickAcceptingRequestsButton</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="clickAddCurateEvent">clickAddCurateEvent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickBlockingRequestsButton">clickBlockingRequestsButton</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="clickCurateEventsInMenu">clickCurateEventsInMenu</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickGreenToggle">clickGreenToggle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="clickListOfCurateEventsInMenu">clickListOfCurateEventsInMenu</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickMemberAccessInMenu">clickMemberAccessInMenu</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="clickPublishButton">clickPublishButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickNextButton">clickNextButton</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="clickSaveButton">clickSaveButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickNextButtonInRemoveAccess">clickNextButtonInRemoveAccess</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="enterEndDate">enterEndDate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickOkButton">clickOkButton</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="enterEndTime">enterEndTime</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="clickRedToggle">clickRedToggle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="enterStartDate">enterStartDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="enterStartTime">enterStartTime</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,7 +166,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.LoginTest" hash-for-method="testLoginPageElements(By.xpath: //input[@name=&#039;password&#039;], Password field not found)">testLoginPageElements(By.xpath: //input[@name='password'], Password field not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="modifyEvent">modifyEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="selectFacility">selectFacility</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,107 +181,82 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.LoginTest" hash-for-method="testLoginPageElements(By.xpath: //input[@name=&#039;password&#039;], Password field not found)">testLoginPageElements(By.xpath: //input[@name='password'], Password field not found)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.LoginTest" hash-for-method="testLoginPageElements(By.xpath: //input[@name=&#039;username&#039;], Username field not found)">testLoginPageElements(By.xpath: //input[@name='username'], Username field not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyAllowMemberAccessPageElements(By.xpath: //div[@class=&#039;modal-title&#039;]/../button[@class=&#039;close&#039; and text()=&#039;×&#039;], closeButton not foun...)">verifyAllowMemberAccessPageElements(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not foun...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="updateRemarks">updateRemarks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyAllowMemberAccessPageElements(By.xpath: //span[text()=&#039;More Information&#039;], moreInfo button found)">verifyAllowMemberAccessPageElements(By.xpath: //span[text()='More Information'], moreInfo button found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.xpath: //a[@class=&#039;btn cancel-btn btn-sha btn-ad1 btnwidth nav_action nav_cancel&#039;], Cancel button...)">verifyAddCurateEventsPageElements(By.xpath: //a[@class='btn cancel-btn btn-sha btn-ad1 btnwidth nav_action nav_cancel'], Cancel button...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyAllowMemberAccessPageElements(By.xpath: //div[text()=&#039;Club Domino&#039;], Header not found)">verifyAllowMemberAccessPageElements(By.xpath: //div[text()='Club Domino'], Header not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.id: action_publish, Publish button not found)">verifyAddCurateEventsPageElements(By.id: action_publish, Publish button not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyAllowMemberAccessPageElements(By.xpath: //a[text()=&#039;ABOUT CLUB&#039;], aboutClubTab not found)">verifyAllowMemberAccessPageElements(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;end_date[0]&#039;], End date field not found)">verifyAddCurateEventsPageElements(By.xpath: //input[@name='end_date[0]'], End date field not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyAllowMemberAccessPageElements(By.xpath: //h4[text()=&#039;ABOUT US&#039;], aboutUs section not found)">verifyAllowMemberAccessPageElements(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;start_date[0]&#039;], Start date field not found)">verifyAddCurateEventsPageElements(By.xpath: //input[@name='start_date[0]'], Start date field not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyAllowMemberAccessPageElements(By.xpath: //a[text()=&#039;FACILITIES&#039;], facilitiesTab not found)">verifyAllowMemberAccessPageElements(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;start_time[0]&#039;], Start time field not found)">verifyAddCurateEventsPageElements(By.xpath: //input[@name='start_time[0]'], Start time field not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyAllowMemberAccessPageElements(By.id: nextTab, nextButton not found)">verifyAllowMemberAccessPageElements(By.id: nextTab, nextButton not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.id: action_save, Save button not found)">verifyAddCurateEventsPageElements(By.id: action_save, Save button not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyBlockMemberAccessPageElements(By.xpath: //div[@class=&#039;modal-title&#039;]/../button[@class=&#039;close&#039; and text()=&#039;×&#039;], closeButton not foun...)">verifyBlockMemberAccessPageElements(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not foun...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.xpath: //h3[text()=&#039;Add Curated Event&#039;], Header not found)">verifyAddCurateEventsPageElements(By.xpath: //h3[text()='Add Curated Event'], Header not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyBlockMemberAccessPageElements(By.xpath: //h4[text()=&#039;ABOUT US&#039;], aboutUs section not found)">verifyBlockMemberAccessPageElements(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;end_time[0]&#039;], End time field not found)">verifyAddCurateEventsPageElements(By.xpath: //input[@name='end_time[0]'], End time field not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyBlockMemberAccessPageElements(By.xpath: //span[text()=&#039;More Information&#039;], moreInfo button found)">verifyBlockMemberAccessPageElements(By.xpath: //span[text()='More Information'], moreInfo button found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.xpath: //a[@class=&#039;btn submit-btn facility_choice_add&#039;], Add facility button not found)">verifyAddCurateEventsPageElements(By.xpath: //a[@class='btn submit-btn facility_choice_add'], Add facility button not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyBlockMemberAccessPageElements(By.xpath: //a[text()=&#039;ABOUT CLUB&#039;], aboutClubTab not found)">verifyBlockMemberAccessPageElements(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyAddCurateEventsPageElements(By.id: facility_id, Facility drop down not found)">verifyAddCurateEventsPageElements(By.id: facility_id, Facility drop down not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyBlockMemberAccessPageElements(By.id: nextTab, nextButton not found)">verifyBlockMemberAccessPageElements(By.id: nextTab, nextButton not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyCurateEventsPageElements(By.xpath: //span[text()=&#039;Add Facilities For Curated Events&#039;], Add curate events button not found)">verifyCurateEventsPageElements(By.xpath: //span[text()='Add Facilities For Curated Events'], Add curate events button not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyBlockMemberAccessPageElements(By.xpath: //div[text()=&#039;Club Domino&#039;], Header not found)">verifyBlockMemberAccessPageElements(By.xpath: //div[text()='Club Domino'], Header not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyCurateEventsPageElements(By.xpath: //div[@class=&#039;text-justify&#039;]/p, Description not found)">verifyCurateEventsPageElements(By.xpath: //div[@class='text-justify']/p, Description not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyBlockMemberAccessPageElements(By.xpath: //a[text()=&#039;FACILITIES&#039;], facilitiesTab not found)">verifyBlockMemberAccessPageElements(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyMemberAccessPageElements(By.xpath: //h3[text()=&#039;PlatinumClubNet Member Access&#039;], Header not found)">verifyMemberAccessPageElements(By.xpath: //h3[text()='PlatinumClubNet Member Access'], Header not found)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyMemberAccessPageElements(By.xpath: //img[contains(@class,&#039;club-image&#039;)], Club image not found)">verifyMemberAccessPageElements(By.xpath: //img[contains(@class,'club-image')], Club image not found)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyMemberAccessPageElements(By.xpath: //h5[text()=&#039;Club Domino&#039;]/following-sibling::p[contains(@class,&#039;club-city-type ellip&#039;)]/s...)">verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/s...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyMemberAccessPageElements(By.xpath: //h5[text()=&#039;Club Domino&#039;]/following-sibling::p[contains(@class,&#039;club-city-type ellip&#039;)]/s...)">verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/s...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyMemberAccessPageElements(By.xpath: //div[@data-club-name=&#039;Club Domino&#039;]/following-sibling::div/div/div/label/span[@class=&#039;che...)">verifyMemberAccessPageElements(By.xpath: //div[@data-club-name='Club Domino']/following-sibling::div/div/div/label/span[@class='che...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.MemberAccessTest" hash-for-method="verifyMemberAccessPageElements(By.xpath: //h5[text()=&#039;Club Domino&#039;], Club name not found)">verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino'], Club name not found)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mobicom.tests.AddCurateEventTest" hash-for-method="verifyCurateEventsPageElements(By.xpath: //h3[text()=&#039;Curated Events&#039;], Curate facilities header not found)">verifyCurateEventsPageElements(By.xpath: //h3[text()='Curated Events'], Curate facilities header not found)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -272,6 +271,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mobicom.tests.AddCurateEventTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCurateEvent">
+                  </a> <!-- deleteCurateEvent -->
+                  <span class="method-name">deleteCurateEvent</span>
+                  <div class="stack-trace">java.lang.AssertionError: Curate event not deleted expected [0] but found [1]
+	at com.mobicom.tests.AddCurateEventTest.deleteCurateEvent(AddCurateEventTest.java:166)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -287,18 +305,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginPageElements(By.xpath: //input[@name=&#039;password&#039;], Password field not found)">
-                  </a> <!-- testLoginPageElements(By.xpath: //input[@name='password'], Password field not found) -->
-                  <span class="method-name">testLoginPageElements</span>
-                  <span class="parameters">(By.xpath: //input[@name='password'], Password field not found)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testLoginPageElements(By.xpath: //button[@id=&#039;proceed-btn&#039;], Login button not found)">
                   </a> <!-- testLoginPageElements(By.xpath: //button[@id='proceed-btn'], Login button not found) -->
                   <span class="method-name">testLoginPageElements</span>
                   <span class="parameters">(By.xpath: //button[@id='proceed-btn'], Login button not found)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageElements(By.xpath: //input[@name=&#039;password&#039;], Password field not found)">
+                  </a> <!-- testLoginPageElements(By.xpath: //input[@name='password'], Password field not found) -->
+                  <span class="method-name">testLoginPageElements</span>
+                  <span class="parameters">(By.xpath: //input[@name='password'], Password field not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -314,223 +332,195 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.mobicom.tests.MemberAccessTest</span>
+              <span class="class-name">com.mobicom.tests.AddCurateEventTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickAcceptingRequestsButton">
-                  </a> <!-- clickAcceptingRequestsButton -->
-                  <span class="method-name">clickAcceptingRequestsButton</span>
+                  <a name="clickAddCurateEvent">
+                  </a> <!-- clickAddCurateEvent -->
+                  <span class="method-name">clickAddCurateEvent</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickBlockingRequestsButton">
-                  </a> <!-- clickBlockingRequestsButton -->
-                  <span class="method-name">clickBlockingRequestsButton</span>
+                  <a name="clickCurateEventsInMenu">
+                  </a> <!-- clickCurateEventsInMenu -->
+                  <span class="method-name">clickCurateEventsInMenu</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickGreenToggle">
-                  </a> <!-- clickGreenToggle -->
-                  <span class="method-name">clickGreenToggle</span>
+                  <a name="clickListOfCurateEventsInMenu">
+                  </a> <!-- clickListOfCurateEventsInMenu -->
+                  <span class="method-name">clickListOfCurateEventsInMenu</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickMemberAccessInMenu">
-                  </a> <!-- clickMemberAccessInMenu -->
-                  <span class="method-name">clickMemberAccessInMenu</span>
+                  <a name="clickPublishButton">
+                  </a> <!-- clickPublishButton -->
+                  <span class="method-name">clickPublishButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickNextButton">
-                  </a> <!-- clickNextButton -->
-                  <span class="method-name">clickNextButton</span>
+                  <a name="clickSaveButton">
+                  </a> <!-- clickSaveButton -->
+                  <span class="method-name">clickSaveButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickNextButtonInRemoveAccess">
-                  </a> <!-- clickNextButtonInRemoveAccess -->
-                  <span class="method-name">clickNextButtonInRemoveAccess</span>
+                  <a name="enterEndDate">
+                  </a> <!-- enterEndDate -->
+                  <span class="method-name">enterEndDate</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOkButton">
-                  </a> <!-- clickOkButton -->
-                  <span class="method-name">clickOkButton</span>
+                  <a name="enterEndTime">
+                  </a> <!-- enterEndTime -->
+                  <span class="method-name">enterEndTime</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickRedToggle">
-                  </a> <!-- clickRedToggle -->
-                  <span class="method-name">clickRedToggle</span>
+                  <a name="enterStartDate">
+                  </a> <!-- enterStartDate -->
+                  <span class="method-name">enterStartDate</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllowMemberAccessPageElements(By.xpath: //div[@class=&#039;modal-title&#039;]/../button[@class=&#039;close&#039; and text()=&#039;×&#039;], closeButton not foun...)">
-                  </a> <!-- verifyAllowMemberAccessPageElements(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not foun...) -->
-                  <span class="method-name">verifyAllowMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not found)</span>
+                  <a name="enterStartTime">
+                  </a> <!-- enterStartTime -->
+                  <span class="method-name">enterStartTime</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllowMemberAccessPageElements(By.xpath: //span[text()=&#039;More Information&#039;], moreInfo button found)">
-                  </a> <!-- verifyAllowMemberAccessPageElements(By.xpath: //span[text()='More Information'], moreInfo button found) -->
-                  <span class="method-name">verifyAllowMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //span[text()='More Information'], moreInfo button found)</span>
+                  <a name="modifyEvent">
+                  </a> <!-- modifyEvent -->
+                  <span class="method-name">modifyEvent</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllowMemberAccessPageElements(By.xpath: //div[text()=&#039;Club Domino&#039;], Header not found)">
-                  </a> <!-- verifyAllowMemberAccessPageElements(By.xpath: //div[text()='Club Domino'], Header not found) -->
-                  <span class="method-name">verifyAllowMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //div[text()='Club Domino'], Header not found)</span>
+                  <a name="selectFacility">
+                  </a> <!-- selectFacility -->
+                  <span class="method-name">selectFacility</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllowMemberAccessPageElements(By.xpath: //a[text()=&#039;ABOUT CLUB&#039;], aboutClubTab not found)">
-                  </a> <!-- verifyAllowMemberAccessPageElements(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found) -->
-                  <span class="method-name">verifyAllowMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found)</span>
+                  <a name="updateRemarks">
+                  </a> <!-- updateRemarks -->
+                  <span class="method-name">updateRemarks</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllowMemberAccessPageElements(By.xpath: //h4[text()=&#039;ABOUT US&#039;], aboutUs section not found)">
-                  </a> <!-- verifyAllowMemberAccessPageElements(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found) -->
-                  <span class="method-name">verifyAllowMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.xpath: //a[@class=&#039;btn cancel-btn btn-sha btn-ad1 btnwidth nav_action nav_cancel&#039;], Cancel button...)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.xpath: //a[@class='btn cancel-btn btn-sha btn-ad1 btnwidth nav_action nav_cancel'], Cancel button...) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //a[@class='btn cancel-btn btn-sha btn-ad1 btnwidth nav_action nav_cancel'], Cancel button not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllowMemberAccessPageElements(By.xpath: //a[text()=&#039;FACILITIES&#039;], facilitiesTab not found)">
-                  </a> <!-- verifyAllowMemberAccessPageElements(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found) -->
-                  <span class="method-name">verifyAllowMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.id: action_publish, Publish button not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.id: action_publish, Publish button not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.id: action_publish, Publish button not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllowMemberAccessPageElements(By.id: nextTab, nextButton not found)">
-                  </a> <!-- verifyAllowMemberAccessPageElements(By.id: nextTab, nextButton not found) -->
-                  <span class="method-name">verifyAllowMemberAccessPageElements</span>
-                  <span class="parameters">(By.id: nextTab, nextButton not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;end_date[0]&#039;], End date field not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.xpath: //input[@name='end_date[0]'], End date field not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //input[@name='end_date[0]'], End date field not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBlockMemberAccessPageElements(By.xpath: //div[@class=&#039;modal-title&#039;]/../button[@class=&#039;close&#039; and text()=&#039;×&#039;], closeButton not foun...)">
-                  </a> <!-- verifyBlockMemberAccessPageElements(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not foun...) -->
-                  <span class="method-name">verifyBlockMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;start_date[0]&#039;], Start date field not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.xpath: //input[@name='start_date[0]'], Start date field not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //input[@name='start_date[0]'], Start date field not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBlockMemberAccessPageElements(By.xpath: //h4[text()=&#039;ABOUT US&#039;], aboutUs section not found)">
-                  </a> <!-- verifyBlockMemberAccessPageElements(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found) -->
-                  <span class="method-name">verifyBlockMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;start_time[0]&#039;], Start time field not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.xpath: //input[@name='start_time[0]'], Start time field not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //input[@name='start_time[0]'], Start time field not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBlockMemberAccessPageElements(By.xpath: //span[text()=&#039;More Information&#039;], moreInfo button found)">
-                  </a> <!-- verifyBlockMemberAccessPageElements(By.xpath: //span[text()='More Information'], moreInfo button found) -->
-                  <span class="method-name">verifyBlockMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //span[text()='More Information'], moreInfo button found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.id: action_save, Save button not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.id: action_save, Save button not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.id: action_save, Save button not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBlockMemberAccessPageElements(By.xpath: //a[text()=&#039;ABOUT CLUB&#039;], aboutClubTab not found)">
-                  </a> <!-- verifyBlockMemberAccessPageElements(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found) -->
-                  <span class="method-name">verifyBlockMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.xpath: //h3[text()=&#039;Add Curated Event&#039;], Header not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.xpath: //h3[text()='Add Curated Event'], Header not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //h3[text()='Add Curated Event'], Header not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBlockMemberAccessPageElements(By.id: nextTab, nextButton not found)">
-                  </a> <!-- verifyBlockMemberAccessPageElements(By.id: nextTab, nextButton not found) -->
-                  <span class="method-name">verifyBlockMemberAccessPageElements</span>
-                  <span class="parameters">(By.id: nextTab, nextButton not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.xpath: //input[@name=&#039;end_time[0]&#039;], End time field not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.xpath: //input[@name='end_time[0]'], End time field not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //input[@name='end_time[0]'], End time field not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBlockMemberAccessPageElements(By.xpath: //div[text()=&#039;Club Domino&#039;], Header not found)">
-                  </a> <!-- verifyBlockMemberAccessPageElements(By.xpath: //div[text()='Club Domino'], Header not found) -->
-                  <span class="method-name">verifyBlockMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //div[text()='Club Domino'], Header not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.xpath: //a[@class=&#039;btn submit-btn facility_choice_add&#039;], Add facility button not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.xpath: //a[@class='btn submit-btn facility_choice_add'], Add facility button not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //a[@class='btn submit-btn facility_choice_add'], Add facility button not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBlockMemberAccessPageElements(By.xpath: //a[text()=&#039;FACILITIES&#039;], facilitiesTab not found)">
-                  </a> <!-- verifyBlockMemberAccessPageElements(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found) -->
-                  <span class="method-name">verifyBlockMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found)</span>
+                  <a name="verifyAddCurateEventsPageElements(By.id: facility_id, Facility drop down not found)">
+                  </a> <!-- verifyAddCurateEventsPageElements(By.id: facility_id, Facility drop down not found) -->
+                  <span class="method-name">verifyAddCurateEventsPageElements</span>
+                  <span class="parameters">(By.id: facility_id, Facility drop down not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyMemberAccessPageElements(By.xpath: //h3[text()=&#039;PlatinumClubNet Member Access&#039;], Header not found)">
-                  </a> <!-- verifyMemberAccessPageElements(By.xpath: //h3[text()='PlatinumClubNet Member Access'], Header not found) -->
-                  <span class="method-name">verifyMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //h3[text()='PlatinumClubNet Member Access'], Header not found)</span>
+                  <a name="verifyCurateEventsPageElements(By.xpath: //span[text()=&#039;Add Facilities For Curated Events&#039;], Add curate events button not found)">
+                  </a> <!-- verifyCurateEventsPageElements(By.xpath: //span[text()='Add Facilities For Curated Events'], Add curate events button not found) -->
+                  <span class="method-name">verifyCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //span[text()='Add Facilities For Curated Events'], Add curate events button not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyMemberAccessPageElements(By.xpath: //img[contains(@class,&#039;club-image&#039;)], Club image not found)">
-                  </a> <!-- verifyMemberAccessPageElements(By.xpath: //img[contains(@class,'club-image')], Club image not found) -->
-                  <span class="method-name">verifyMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //img[contains(@class,'club-image')], Club image not found)</span>
+                  <a name="verifyCurateEventsPageElements(By.xpath: //div[@class=&#039;text-justify&#039;]/p, Description not found)">
+                  </a> <!-- verifyCurateEventsPageElements(By.xpath: //div[@class='text-justify']/p, Description not found) -->
+                  <span class="method-name">verifyCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //div[@class='text-justify']/p, Description not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyMemberAccessPageElements(By.xpath: //h5[text()=&#039;Club Domino&#039;]/following-sibling::p[contains(@class,&#039;club-city-type ellip&#039;)]/s...)">
-                  </a> <!-- verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/s...) -->
-                  <span class="method-name">verifyMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/span[contains(text(),'India')], Club country not found)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyMemberAccessPageElements(By.xpath: //h5[text()=&#039;Club Domino&#039;]/following-sibling::p[contains(@class,&#039;club-city-type ellip&#039;)]/s...)">
-                  </a> <!-- verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/s...) -->
-                  <span class="method-name">verifyMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/span[text()='Bangalore'], Club city not found)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyMemberAccessPageElements(By.xpath: //div[@data-club-name=&#039;Club Domino&#039;]/following-sibling::div/div/div/label/span[@class=&#039;che...)">
-                  </a> <!-- verifyMemberAccessPageElements(By.xpath: //div[@data-club-name='Club Domino']/following-sibling::div/div/div/label/span[@class='che...) -->
-                  <span class="method-name">verifyMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //div[@data-club-name='Club Domino']/following-sibling::div/div/div/label/span[@class='checked slider round'], Allow access button not found)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyMemberAccessPageElements(By.xpath: //h5[text()=&#039;Club Domino&#039;], Club name not found)">
-                  </a> <!-- verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino'], Club name not found) -->
-                  <span class="method-name">verifyMemberAccessPageElements</span>
-                  <span class="parameters">(By.xpath: //h5[text()='Club Domino'], Club name not found)</span>
+                  <a name="verifyCurateEventsPageElements(By.xpath: //h3[text()=&#039;Curated Events&#039;], Curate facilities header not found)">
+                  </a> <!-- verifyCurateEventsPageElements(By.xpath: //h3[text()='Curated Events'], Curate facilities header not found) -->
+                  <span class="method-name">verifyCurateEventsPageElements</span>
+                  <span class="parameters">(By.xpath: //h3[text()='Curated Events'], Curate facilities header not found)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -549,7 +539,7 @@
     &lt;parameter name=&quot;testItem&quot; value=&quot;Chrome on mac&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.mobicom.tests.LoginTest&quot;/&gt;
-      &lt;class name=&quot;com.mobicom.tests.MemberAccessTest&quot;/&gt;
+      &lt;class name=&quot;com.mobicom.tests.AddCurateEventTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Chrome on mac --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -589,140 +579,132 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(32);
+data.addRows(30);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickMemberAccessInMenu')
-data.setCell(0, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(0, 3, 2057);
+data.setCell(0, 1, 'deleteCurateEvent')
+data.setCell(0, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(0, 3, 2301);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginToClub')
 data.setCell(1, 2, 'com.mobicom.tests.LoginTest')
-data.setCell(1, 3, 1838);
+data.setCell(1, 3, 2016);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickBlockingRequestsButton')
-data.setCell(2, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(2, 3, 744);
+data.setCell(2, 1, 'clickListOfCurateEventsInMenu')
+data.setCell(2, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(2, 3, 1592);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'clickGreenToggle')
-data.setCell(3, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(3, 3, 724);
+data.setCell(3, 1, 'modifyEvent')
+data.setCell(3, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(3, 3, 1347);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickOkButton')
-data.setCell(4, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(4, 3, 660);
+data.setCell(4, 1, 'clickAddCurateEvent')
+data.setCell(4, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(4, 3, 1233);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'clickAcceptingRequestsButton')
-data.setCell(5, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(5, 3, 658);
+data.setCell(5, 1, 'clickSaveButton')
+data.setCell(5, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(5, 3, 922);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'clickRedToggle')
-data.setCell(6, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(6, 3, 644);
+data.setCell(6, 1, 'clickCurateEventsInMenu')
+data.setCell(6, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(6, 3, 830);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'clickNextButton')
-data.setCell(7, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(7, 3, 277);
+data.setCell(7, 1, 'clickPublishButton')
+data.setCell(7, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(7, 3, 685);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyAllowMemberAccessPageElements')
-data.setCell(8, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(8, 3, 199);
+data.setCell(8, 1, 'selectFacility')
+data.setCell(8, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(8, 3, 362);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'clickNextButtonInRemoveAccess')
-data.setCell(9, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(9, 3, 155);
+data.setCell(9, 1, 'updateRemarks')
+data.setCell(9, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(9, 3, 272);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyBlockMemberAccessPageElements')
-data.setCell(10, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(10, 3, 110);
+data.setCell(10, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(10, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(10, 3, 256);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyAllowMemberAccessPageElements')
-data.setCell(11, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(11, 3, 94);
+data.setCell(11, 1, 'enterStartTime')
+data.setCell(11, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(11, 3, 251);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testLoginPageElements')
-data.setCell(12, 2, 'com.mobicom.tests.LoginTest')
-data.setCell(12, 3, 82);
+data.setCell(12, 1, 'enterEndTime')
+data.setCell(12, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(12, 3, 213);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyBlockMemberAccessPageElements')
-data.setCell(13, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(13, 3, 79);
+data.setCell(13, 1, 'testLoginPageElements')
+data.setCell(13, 2, 'com.mobicom.tests.LoginTest')
+data.setCell(13, 3, 91);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyBlockMemberAccessPageElements')
-data.setCell(14, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(14, 3, 76);
+data.setCell(14, 1, 'verifyCurateEventsPageElements')
+data.setCell(14, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(14, 3, 67);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifyMemberAccessPageElements')
-data.setCell(15, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(15, 3, 75);
+data.setCell(15, 1, 'testLoginPageElements')
+data.setCell(15, 2, 'com.mobicom.tests.LoginTest')
+data.setCell(15, 3, 65);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testLoginPageElements')
-data.setCell(16, 2, 'com.mobicom.tests.LoginTest')
-data.setCell(16, 3, 72);
+data.setCell(16, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(16, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(16, 3, 64);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'testLoginPageElements')
 data.setCell(17, 2, 'com.mobicom.tests.LoginTest')
-data.setCell(17, 3, 69);
+data.setCell(17, 3, 63);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyBlockMemberAccessPageElements')
-data.setCell(18, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(18, 3, 69);
+data.setCell(18, 1, 'verifyCurateEventsPageElements')
+data.setCell(18, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(18, 3, 63);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyBlockMemberAccessPageElements')
-data.setCell(19, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(19, 3, 68);
+data.setCell(19, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(19, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(19, 3, 61);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyMemberAccessPageElements')
-data.setCell(20, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(20, 3, 66);
+data.setCell(20, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(20, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(20, 3, 60);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyBlockMemberAccessPageElements')
-data.setCell(21, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(21, 3, 66);
+data.setCell(21, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(21, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(21, 3, 58);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyBlockMemberAccessPageElements')
-data.setCell(22, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(22, 3, 65);
+data.setCell(22, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(22, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(22, 3, 56);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'verifyAllowMemberAccessPageElements')
-data.setCell(23, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(23, 3, 64);
+data.setCell(23, 1, 'enterEndDate')
+data.setCell(23, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(23, 3, 54);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'verifyMemberAccessPageElements')
-data.setCell(24, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(24, 3, 64);
+data.setCell(24, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(24, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(24, 3, 51);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyMemberAccessPageElements')
-data.setCell(25, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(25, 3, 60);
+data.setCell(25, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(25, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(25, 3, 51);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'verifyMemberAccessPageElements')
-data.setCell(26, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(26, 3, 57);
+data.setCell(26, 1, 'enterStartDate')
+data.setCell(26, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(26, 3, 50);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'verifyAllowMemberAccessPageElements')
-data.setCell(27, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(27, 3, 56);
+data.setCell(27, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(27, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(27, 3, 50);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'verifyAllowMemberAccessPageElements')
-data.setCell(28, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(28, 3, 47);
+data.setCell(28, 1, 'verifyAddCurateEventsPageElements')
+data.setCell(28, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(28, 3, 50);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'verifyAllowMemberAccessPageElements')
-data.setCell(29, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(29, 3, 46);
-data.setCell(30, 0, 30)
-data.setCell(30, 1, 'verifyAllowMemberAccessPageElements')
-data.setCell(30, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(30, 3, 43);
-data.setCell(31, 0, 31)
-data.setCell(31, 1, 'verifyMemberAccessPageElements')
-data.setCell(31, 2, 'com.mobicom.tests.MemberAccessTest')
-data.setCell(31, 3, 41);
+data.setCell(29, 1, 'verifyCurateEventsPageElements')
+data.setCell(29, 2, 'com.mobicom.tests.AddCurateEventTest')
+data.setCell(29, 3, 45);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -755,401 +737,379 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beginTest(public void com.mobicom.tests.LoginTest.testLoginPageElements(org.openqa.selenium.By,java.lang.Strin...)</span>
-                <span class="method-start">2759 ms</span>
+                <span class="method-start">3299 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginPageElements(By.xpath: //input[@name='username'], Username field not found)</span>
-                <span class="method-start">2765 ms</span>
+                <span class="method-start">3303 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">exportReports([TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.ope...)</span>
-                <span class="method-start">2849 ms</span>
+                <span class="method-start">3396 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beginTest(public void com.mobicom.tests.LoginTest.testLoginPageElements(org.openqa.selenium.By,java.lang.Strin...)</span>
-                <span class="method-start">2856 ms</span>
+                <span class="method-start">3401 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginPageElements(By.xpath: //input[@name='password'], Password field not found)</span>
-                <span class="method-start">2856 ms</span>
+                <span class="method-start">3401 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">exportReports([TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.ope...)</span>
-                <span class="method-start">2926 ms</span>
+                <span class="method-start">3467 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beginTest(public void com.mobicom.tests.LoginTest.testLoginPageElements(org.openqa.selenium.By,java.lang.Strin...)</span>
-                <span class="method-start">2927 ms</span>
+                <span class="method-start">3467 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginPageElements(By.xpath: //button[@id='proceed-btn'], Login button not found)</span>
-                <span class="method-start">2927 ms</span>
+                <span class="method-start">3468 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">exportReports([TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.ope...)</span>
-                <span class="method-start">3001 ms</span>
+                <span class="method-start">3532 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beginTest(public void com.mobicom.tests.LoginTest.loginToClub())</span>
-                <span class="method-start">3004 ms</span>
+                <span class="method-start">3535 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginToClub</span>
-                <span class="method-start">3004 ms</span>
+                <span class="method-start">3535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">exportReports([TestResult name=loginToClub status=SUCCESS method=LoginTest.loginToClub()[pri:2, instance:com.mobic...)</span>
-                <span class="method-start">4844 ms</span>
+                <span class="method-start">5552 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.mobicom.tests.MemberAccessTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.mobicom.tests.AddCurateEventTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeTheClass(Chrome on mac)</span>
-                <span class="method-start">4845 ms</span>
+                <span class="method-start">5553 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickMemberAccessInMenu())</span>
-                <span class="method-start">4847 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.clickCurateEventsInMenu())</span>
+                <span class="method-start">5554 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickMemberAccessInMenu</span>
-                <span class="method-start">4847 ms</span>
+                <span class="method-name">clickCurateEventsInMenu</span>
+                <span class="method-start">5555 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickMemberAccessInMenu status=SUCCESS method=MemberAccessTest.clickMemberAccessInM...)</span>
-                <span class="method-start">6905 ms</span>
+                <span class="method-name">exportReports([TestResult name=clickCurateEventsInMenu status=SUCCESS method=AddCurateEventTest.clickCurateEventsI...)</span>
+                <span class="method-start">6385 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By...)</span>
-                <span class="method-start">6907 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.clickListOfCurateEventsInMenu())</span>
+                <span class="method-start">6387 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyMemberAccessPageElements(By.xpath: //h3[text()='PlatinumClubNet Member Access'], Header not found)</span>
-                <span class="method-start">6907 ms</span>
+                <span class="method-name">clickListOfCurateEventsInMenu</span>
+                <span class="method-start">6387 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberA...)</span>
-                <span class="method-start">6949 ms</span>
+                <span class="method-name">exportReports([TestResult name=clickListOfCurateEventsInMenu status=SUCCESS method=AddCurateEventTest.clickListOfC...)</span>
+                <span class="method-start">7980 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By...)</span>
-                <span class="method-start">6950 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium....)</span>
+                <span class="method-start">7981 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyMemberAccessPageElements(By.xpath: //img[contains(@class,'club-image')], Club image not found)</span>
-                <span class="method-start">6950 ms</span>
+                <span class="method-name">verifyCurateEventsPageElements(By.xpath: //h3[text()='Curated Events'], Curate facilities header not found)</span>
+                <span class="method-start">7981 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberA...)</span>
-                <span class="method-start">7026 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyCurat...)</span>
+                <span class="method-start">8027 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By...)</span>
-                <span class="method-start">7026 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium....)</span>
+                <span class="method-start">8028 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/s...)</span>
-                <span class="method-start">7027 ms</span>
+                <span class="method-name">verifyCurateEventsPageElements(By.xpath: //div[@class='text-justify']/p, Description not found)</span>
+                <span class="method-start">8028 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberA...)</span>
-                <span class="method-start">7085 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyCurat...)</span>
+                <span class="method-start">8096 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By...)</span>
-                <span class="method-start">7086 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium....)</span>
+                <span class="method-start">8097 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino'], Club name not found)</span>
-                <span class="method-start">7086 ms</span>
+                <span class="method-name">verifyCurateEventsPageElements(By.xpath: //span[text()='Add Facilities For Curated Events'], Add curate events button not found)</span>
+                <span class="method-start">8097 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberA...)</span>
-                <span class="method-start">7147 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyCurat...)</span>
+                <span class="method-start">8161 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By...)</span>
-                <span class="method-start">7147 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.clickAddCurateEvent())</span>
+                <span class="method-start">8162 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyMemberAccessPageElements(By.xpath: //h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/s...)</span>
-                <span class="method-start">7148 ms</span>
+                <span class="method-name">clickAddCurateEvent</span>
+                <span class="method-start">8163 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberA...)</span>
-                <span class="method-start">7215 ms</span>
+                <span class="method-name">exportReports([TestResult name=clickAddCurateEvent status=SUCCESS method=AddCurateEventTest.clickAddCurateEvent()[...)</span>
+                <span class="method-start">9397 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyMemberAccessPageElements(org.openqa.selenium.By...)</span>
-                <span class="method-start">7216 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">9398 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyMemberAccessPageElements(By.xpath: //div[@data-club-name='Club Domino']/following-sibling::div/div/div/label/span[@class='che...)</span>
-                <span class="method-start">7216 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.xpath: //h3[text()='Add Curated Event'], Header not found)</span>
+                <span class="method-start">9399 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyMemberA...)</span>
-                <span class="method-start">7281 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">9451 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickGreenToggle())</span>
-                <span class="method-start">7283 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">9451 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickGreenToggle</span>
-                <span class="method-start">7283 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.id: facility_id, Facility drop down not found)</span>
+                <span class="method-start">9452 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickGreenToggle status=SUCCESS method=MemberAccessTest.clickGreenToggle()[pri:202,...)</span>
-                <span class="method-start">8008 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">9504 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyBlockMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">8009 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">9505 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBlockMemberAccessPageElements(By.xpath: //div[text()='Club Domino'], Header not found)</span>
-                <span class="method-start">8010 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.xpath: //a[@class='btn submit-btn facility_choice_add'], Add facility button not found)</span>
+                <span class="method-start">9505 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyBlockMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyBl...)</span>
-                <span class="method-start">8077 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">9762 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyBlockMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">8078 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">9763 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBlockMemberAccessPageElements(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found)</span>
-                <span class="method-start">8078 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.xpath: //input[@name='start_date[0]'], Start date field not found)</span>
+                <span class="method-start">9764 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyBlockMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyBl...)</span>
-                <span class="method-start">8147 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">9825 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyBlockMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">8148 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">9825 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBlockMemberAccessPageElements(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found)</span>
-                <span class="method-start">8149 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.xpath: //input[@name='end_date[0]'], End date field not found)</span>
+                <span class="method-start">9826 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyBlockMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyBl...)</span>
-                <span class="method-start">8229 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">9887 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyBlockMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">8230 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">9888 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBlockMemberAccessPageElements(By.xpath: //span[text()='More Information'], moreInfo button found)</span>
-                <span class="method-start">8231 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.xpath: //input[@name='start_time[0]'], Start time field not found)</span>
+                <span class="method-start">9889 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyBlockMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyBl...)</span>
-                <span class="method-start">8298 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">9940 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyBlockMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">8299 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">9941 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBlockMemberAccessPageElements(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not foun...)</span>
-                <span class="method-start">8299 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.xpath: //input[@name='end_time[0]'], End time field not found)</span>
+                <span class="method-start">9941 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyBlockMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyBl...)</span>
-                <span class="method-start">8376 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">10006 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyBlockMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">8377 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">10006 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBlockMemberAccessPageElements(By.id: nextTab, nextButton not found)</span>
-                <span class="method-start">8377 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.xpath: //a[@class='btn cancel-btn btn-sha btn-ad1 btnwidth nav_action nav_cancel'], Cancel button...)</span>
+                <span class="method-start">10007 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyBlockMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyBl...)</span>
-                <span class="method-start">8488 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">10058 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyBlockMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">8489 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">10059 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyBlockMemberAccessPageElements(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found)</span>
-                <span class="method-start">8489 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.id: action_save, Save button not found)</span>
+                <span class="method-start">10059 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyBlockMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyBl...)</span>
-                <span class="method-start">8558 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">10115 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickNextButton())</span>
-                <span class="method-start">8559 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.seleni...)</span>
+                <span class="method-start">10116 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickNextButton</span>
-                <span class="method-start">8559 ms</span>
+                <span class="method-name">verifyAddCurateEventsPageElements(By.id: action_publish, Publish button not found)</span>
+                <span class="method-start">10116 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickNextButton status=SUCCESS method=MemberAccessTest.clickNextButton()[pri:204, i...)</span>
-                <span class="method-start">8837 ms</span>
+                <span class="method-name">exportReports([TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAd...)</span>
+                <span class="method-start">10175 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickBlockingRequestsButton())</span>
-                <span class="method-start">8839 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.selectFacility())</span>
+                <span class="method-start">10176 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickBlockingRequestsButton</span>
-                <span class="method-start">8839 ms</span>
+                <span class="method-name">selectFacility</span>
+                <span class="method-start">10176 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickBlockingRequestsButton status=SUCCESS method=MemberAccessTest.clickBlockingReq...)</span>
-                <span class="method-start">9583 ms</span>
+                <span class="method-name">exportReports([TestResult name=selectFacility status=SUCCESS method=AddCurateEventTest.selectFacility()[pri:155, i...)</span>
+                <span class="method-start">10538 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickOkButton() throws java.lang.InterruptedException)</span>
-                <span class="method-start">9584 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.updateRemarks())</span>
+                <span class="method-start">10540 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickOkButton</span>
-                <span class="method-start">9585 ms</span>
+                <span class="method-name">updateRemarks</span>
+                <span class="method-start">10540 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickOkButton status=SUCCESS method=MemberAccessTest.clickOkButton()[pri:206, insta...)</span>
-                <span class="method-start">10246 ms</span>
+                <span class="method-name">exportReports([TestResult name=updateRemarks status=SUCCESS method=AddCurateEventTest.updateRemarks()[pri:156, ins...)</span>
+                <span class="method-start">10812 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickRedToggle())</span>
-                <span class="method-start">10247 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.enterStartDate())</span>
+                <span class="method-start">10813 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickRedToggle</span>
-                <span class="method-start">10247 ms</span>
+                <span class="method-name">enterStartDate</span>
+                <span class="method-start">10813 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickRedToggle status=SUCCESS method=MemberAccessTest.clickRedToggle()[pri:215, ins...)</span>
-                <span class="method-start">10892 ms</span>
+                <span class="method-name">exportReports([TestResult name=enterStartDate status=SUCCESS method=AddCurateEventTest.enterStartDate()[pri:157, i...)</span>
+                <span class="method-start">10864 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">10893 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.enterEndDate() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">10865 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAllowMemberAccessPageElements(By.xpath: //div[text()='Club Domino'], Header not found)</span>
-                <span class="method-start">10894 ms</span>
+                <span class="method-name">enterEndDate</span>
+                <span class="method-start">10865 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAl...)</span>
-                <span class="method-start">11094 ms</span>
+                <span class="method-name">exportReports([TestResult name=enterEndDate status=SUCCESS method=AddCurateEventTest.enterEndDate()[pri:158, insta...)</span>
+                <span class="method-start">10920 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">11095 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.enterStartTime())</span>
+                <span class="method-start">10921 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAllowMemberAccessPageElements(By.xpath: //a[text()='ABOUT CLUB'], aboutClubTab not found)</span>
-                <span class="method-start">11095 ms</span>
+                <span class="method-name">enterStartTime</span>
+                <span class="method-start">10921 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAl...)</span>
-                <span class="method-start">11159 ms</span>
+                <span class="method-name">exportReports([TestResult name=enterStartTime status=SUCCESS method=AddCurateEventTest.enterStartTime()[pri:159, i...)</span>
+                <span class="method-start">11173 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">11161 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.enterEndTime())</span>
+                <span class="method-start">11174 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAllowMemberAccessPageElements(By.xpath: //a[text()='FACILITIES'], facilitiesTab not found)</span>
-                <span class="method-start">11161 ms</span>
+                <span class="method-name">enterEndTime</span>
+                <span class="method-start">11174 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAl...)</span>
-                <span class="method-start">11218 ms</span>
+                <span class="method-name">exportReports([TestResult name=enterEndTime status=SUCCESS method=AddCurateEventTest.enterEndTime()[pri:160, insta...)</span>
+                <span class="method-start">11388 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">11219 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.clickSaveButton())</span>
+                <span class="method-start">11389 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAllowMemberAccessPageElements(By.xpath: //span[text()='More Information'], moreInfo button found)</span>
-                <span class="method-start">11219 ms</span>
+                <span class="method-name">clickSaveButton</span>
+                <span class="method-start">11389 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAl...)</span>
-                <span class="method-start">11262 ms</span>
+                <span class="method-name">exportReports([TestResult name=clickSaveButton status=SUCCESS method=AddCurateEventTest.clickSaveButton()[pri:161,...)</span>
+                <span class="method-start">12311 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">11263 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.modifyEvent())</span>
+                <span class="method-start">12312 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAllowMemberAccessPageElements(By.xpath: //div[@class='modal-title']/../button[@class='close' and text()='×'], closeButton not foun...)</span>
-                <span class="method-start">11263 ms</span>
+                <span class="method-name">modifyEvent</span>
+                <span class="method-start">12312 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAl...)</span>
-                <span class="method-start">11309 ms</span>
+                <span class="method-name">exportReports([TestResult name=modifyEvent status=SUCCESS method=AddCurateEventTest.modifyEvent()[pri:162, instanc...)</span>
+                <span class="method-start">13659 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">11310 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.clickPublishButton())</span>
+                <span class="method-start">13660 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAllowMemberAccessPageElements(By.id: nextTab, nextButton not found)</span>
-                <span class="method-start">11310 ms</span>
+                <span class="method-name">clickPublishButton</span>
+                <span class="method-start">13660 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAl...)</span>
-                <span class="method-start">11357 ms</span>
+                <span class="method-name">exportReports([TestResult name=clickPublishButton status=SUCCESS method=AddCurateEventTest.clickPublishButton()[pr...)</span>
+                <span class="method-start">14345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.verifyAllowMemberAccessPageElements(org.openqa.seleni...)</span>
-                <span class="method-start">11358 ms</span>
+                <span class="method-name">beginTest(public void com.mobicom.tests.AddCurateEventTest.deleteCurateEvent() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">14347 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAllowMemberAccessPageElements(By.xpath: //h4[text()='ABOUT US'], aboutUs section not found)</span>
-                <span class="method-start">11358 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCurateEvent</span>
+                <span class="method-start">14347 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=verifyAllowMemberAccessPageElements status=SUCCESS method=MemberAccessTest.verifyAl...)</span>
-                <span class="method-start">11453 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickNextButtonInRemoveAccess())</span>
-                <span class="method-start">11454 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">clickNextButtonInRemoveAccess</span>
-                <span class="method-start">11454 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickNextButtonInRemoveAccess status=SUCCESS method=MemberAccessTest.clickNextButto...)</span>
-                <span class="method-start">11610 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beginTest(public void com.mobicom.tests.MemberAccessTest.clickAcceptingRequestsButton())</span>
-                <span class="method-start">11611 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">clickAcceptingRequestsButton</span>
-                <span class="method-start">11611 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">exportReports([TestResult name=clickAcceptingRequestsButton status=SUCCESS method=MemberAccessTest.clickAcceptingR...)</span>
-                <span class="method-start">12270 ms</span>
+                <span class="method-name">exportReports([TestResult name=deleteCurateEvent status=FAILURE method=AddCurateEventTest.deleteCurateEvent()[pri:...)</span>
+                <span class="method-start">16650 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mobicom.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">12271 ms</span>
+                <span class="method-start">16651 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

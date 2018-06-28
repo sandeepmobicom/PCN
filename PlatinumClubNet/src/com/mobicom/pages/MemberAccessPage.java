@@ -15,9 +15,6 @@ public class MemberAccessPage extends Utility {
 	public By clubName=By.xpath("//h5[text()='Club Domino']");
 	public By clubCity=By.xpath("//h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/span[text()='Bangalore']");
 	public By clubCountry=By.xpath("//h5[text()='Club Domino']/following-sibling::p[contains(@class,'club-city-type ellip')]/span[contains(text(),'India')]");
-	
-//	public By clubType=By.xpath("//h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club ']");
-//	public By clubMembers=By.xpath("//h5[text()='Amazon Valley']/../p/span[text()='Club Type: Yacht Club ']/following-sibling::span[contains(text(),'Members')]");
 	public By greenToggle=By.xpath("//div[@data-club-name='Club Domino']/following-sibling::div/div/div/label/span[@class='checked slider round']");
 	public By greenToggleAfterApproval=By.xpath("//div[@data-club-name='Club Domino']/following-sibling::div/div/div/label/span[@class='slider round checked']");
 	public By redToggle=By.xpath("//div[@data-club-name='Club Domino']/following-sibling::div/div/div/label/span[@class='slider round']");

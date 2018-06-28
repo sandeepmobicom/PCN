@@ -1,23 +1,17 @@
 package com.mobicom.tests;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-
 import java.net.MalformedURLException;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
 import com.mobicom.helpers.Utility;
-import com.mobicom.pages.AddCurateEventPage;
-import com.mobicom.pages.AddFacilityPage;
-import com.mobicom.pages.LoginPage;
 import com.mobicom.pages.MemberAccessPage;
 
 public class MemberAccessTest extends BaseTest {
@@ -79,34 +73,29 @@ public class MemberAccessTest extends BaseTest {
 	public void verifyBlockMemberAccessPageElements(By element, String str) {
 		assertTrue(Utility.isElementDisplayed(element), str);
 	}
-	
+
 	@Test(priority = 204)
 	public void clickNextButton() {
 		Utility.findElement(memberAccessObject.nextButton).click();
 		assertTrue(Utility.isElementDisplayed(memberAccessObject.previousButton), "Previous button not found");
-		assertTrue(Utility.isElementDisplayed(memberAccessObject.blockingRequestsInDetail), "Allow access button not found");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.blockingRequestsInDetail),
+				"Allow access button not found");
 	}
-	
+
 	@Test(priority = 205)
 	public void clickBlockingRequestsButton() {
-		Utility.findElement(memberAccessObject.blockingRequestsInDetail).click();		
-		assertTrue(Utility.isElementDisplayed(memberAccessObject.blockingConfirmationMessage), "Confirmation alert not displayed");
+		Utility.findElement(memberAccessObject.blockingRequestsInDetail).click();
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.blockingConfirmationMessage),
+				"Confirmation alert not displayed");
 		assertTrue(Utility.isElementDisplayed(memberAccessObject.okButton), "OK button not displayed");
 	}
-	
+
 	@Test(priority = 206)
 	public void clickOkButton() throws InterruptedException {
 		Utility.findElement(memberAccessObject.okButton).click();
 		assertTrue(Utility.isElementDisplayed(memberAccessObject.redToggle), "Blocking is not successful");
 	}
-	
-	
-	
-	//TODO
-	//Remove access
-	
-	
-	
+
 	@Test(priority = 215)
 	public void clickRedToggle() {
 		Utility.findElement(memberAccessObject.redToggle).click();
@@ -117,18 +106,20 @@ public class MemberAccessTest extends BaseTest {
 	public void verifyAllowMemberAccessPageElements(By element, String str) {
 		assertTrue(Utility.isElementDisplayed(element), str);
 	}
-	
+
 	@Test(priority = 217)
 	public void clickNextButtonInRemoveAccess() {
 		Utility.findElement(memberAccessObject.nextButton).click();
 		assertTrue(Utility.isElementDisplayed(memberAccessObject.previousButton), "Previous button not found");
-		assertTrue(Utility.isElementDisplayed(memberAccessObject.acceptingRequestsInDetail), "Accepting Requests button not found");
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.acceptingRequestsInDetail),
+				"Accepting Requests button not found");
 	}
-	
+
 	@Test(priority = 218)
 	public void clickAcceptingRequestsButton() {
-		Utility.findElement(memberAccessObject.acceptingRequestsInDetail).click();		
-		assertTrue(Utility.isElementDisplayed(memberAccessObject.greenToggleAfterApproval), "Accepting requests is not successful");
+		Utility.findElement(memberAccessObject.acceptingRequestsInDetail).click();
+		assertTrue(Utility.isElementDisplayed(memberAccessObject.greenToggleAfterApproval),
+				"Accepting requests is not successful");
 	}
 
 }

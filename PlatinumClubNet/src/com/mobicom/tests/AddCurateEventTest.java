@@ -4,6 +4,8 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.net.MalformedURLException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -24,6 +26,7 @@ public class AddCurateEventTest extends BaseTest {
 	JavascriptExecutor js;
 	Alert alert;
 	int publishedItems = 0;
+	String todaysDate = new SimpleDateFormat("dd/MM/YYYY").format(new Date());
 
 	@Parameters("testItem")
 	@BeforeClass
@@ -38,7 +41,8 @@ public class AddCurateEventTest extends BaseTest {
 		Utility.findElement(addCurateObject.curateFacilitiesInMenu).click();
 		assertTrue(Utility.isElementDisplayed(addCurateObject.clubFacilitiesInMenu),
 				"Club facilities option not found");
-		assertTrue(Utility.isElementDisplayed(addCurateObject.curateEventQuestionnaire), "Questionnaire option not found");
+		assertTrue(Utility.isElementDisplayed(addCurateObject.curateEventQuestionnaire),
+				"Questionnaire option not found");
 		assertTrue(Utility.isElementDisplayed(addCurateObject.statusInMenu), "Status option not found");
 	}
 
@@ -92,10 +96,9 @@ public class AddCurateEventTest extends BaseTest {
 	@Test(priority = 155)
 	public void selectFacility() {
 		Select select = new Select(Utility.findElement(addCurateObject.facilityDropDown));
-		select.selectByVisibleText("OTHER");
+		select.selectByVisibleText("DEMO");
 		System.out.println(select.getFirstSelectedOption().getText());
-		assertEquals(Utility.findElementVisible(addCurateObject.facilityName).getAttribute("value"),
-				"OTHER");
+		assertEquals(Utility.findElementVisible(addCurateObject.facilityName).getAttribute("value"), "DEMO");
 	}
 
 	@Test(priority = 156)
@@ -108,8 +111,9 @@ public class AddCurateEventTest extends BaseTest {
 
 	@Test(priority = 157)
 	public void enterStartDate() {
-		js.executeScript("document.getElementsByClassName('datepicker')[1].value='30/04/2018'");
-		assertEquals(Utility.findElement(addCurateObject.startDateField).getAttribute("value"), "30/04/2018");
+		System.out.println("Todays date: " + todaysDate);
+		js.executeScript("document.getElementsByClassName('datepicker')[1].value='" + todaysDate + "'");
+		assertEquals(Utility.findElement(addCurateObject.startDateField).getAttribute("value"), todaysDate);
 	}
 
 	@Test(priority = 158)

@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import com.mobicom.helpers.Utility;
 import com.mobicom.pages.LoginPage;
 
-public class HomePageTest extends BaseTest {
+public class ClubProfileTest extends BaseTest {
 	LoginPage loginObject;
 
 	@Parameters("testItem")
@@ -22,6 +22,27 @@ public class HomePageTest extends BaseTest {
 	public void beforeTheClass(@Optional("Chrome on Mac") String param) throws MalformedURLException {
 		initTest(param);
 		loginObject = new LoginPage(driver);
+	}
+
+	@Test(priority = 51)
+	public void clickDashboardInMenu() {
+		assertTrue(Utility.isElementDisplayed(loginObject.dashBoardHeader), "Dashboard header not found");
+		assertTrue(Utility.isElementDisplayed(loginObject.memberAccessDashBoardOption),
+				"Member access bookings not found");
+	}
+
+	@Test(priority = 52)
+	public void clickClubProfileInMenu() throws InterruptedException {
+		Utility.findElement(loginObject.myClubSubMenu).click();
+		assertTrue(Utility.isElementDisplayed(loginObject.clubProfileMenu), "Club profile not found");
+		assertTrue(Utility.isElementDisplayed(loginObject.clubFacilitiesSubMenu), "Club facilities not found in menu");
+	}
+
+	@Test(priority = 53)
+	public void clickBasicInfoInMenu() {
+		Utility.findElement(loginObject.clubProfileMenu).click();
+		assertTrue(Utility.isElementDisplayed(loginObject.clubImage), "Club image not found");
+		assertTrue(Utility.isElementDisplayed(loginObject.clubName), "Club name not found");
 	}
 
 	@DataProvider(name = "homePageElements")
@@ -32,35 +53,12 @@ public class HomePageTest extends BaseTest {
 		return input;
 	}
 
-	@Test(priority = 51, dataProvider = "homePageElements")
-	public void testHomePageElements(By element, String str) {
+	@Test(priority = 54, dataProvider = "homePageElements")
+	public void testProfilePageElements(By element, String str) {
 		assertTrue(Utility.isElementDisplayed(element), str);
 	}
 
-	@Test(priority = 52)
-	public void clickDashboardInMenu() {
-		Utility.findElement(loginObject.dashBoardMenu).click();
-		assertTrue(Utility.isElementDisplayed(loginObject.dashBoardHeader), "Dashboard header not found");
-		assertTrue(Utility.isElementDisplayed(loginObject.memberAccessDashBoardOption),
-				"Member access bookings not found");
-	}
-
-	@Test(priority = 53)
-	public void clickClubProfileInMenu() throws InterruptedException {
-		Thread.sleep(2000);
-		Utility.findElement(loginObject.myClubSubMenu).click();
-		assertTrue(Utility.isElementDisplayed(loginObject.clubProfileMenu), "Club profile not found");
-		assertTrue(Utility.isElementDisplayed(loginObject.clubFacilitiesSubMenu), "Club facilities not found in menu");
-	}
-
-	@Test(priority = 54)
-	public void clickBasicInfoInMenu() {
-		Utility.findElement(loginObject.clubProfileMenu).click();
-		assertTrue(Utility.isElementDisplayed(loginObject.clubImage), "Club image not found");
-		assertTrue(Utility.isElementDisplayed(loginObject.clubName), "Club name not found");
-	}
-
-	@Test(priority = 55, enabled=false)
+	@Test(priority = 55, enabled = false)
 	public void clickClubFacilitiesInMenu() {
 		Utility.findElement(loginObject.clubProfileMenu).click();
 		Utility.findElement(loginObject.clubFacilitiesSubMenu).click();

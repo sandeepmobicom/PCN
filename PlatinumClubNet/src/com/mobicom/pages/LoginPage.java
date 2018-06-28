@@ -18,6 +18,10 @@ public class LoginPage extends Utility {
 	public By clubName = By.xpath("//h3[@class='profile-username text-center']");
 	public By yearFoundedLabel = By.xpath("//b[text()='Year Founded']");
 	public By yearFoundedValue = By.xpath("//b[text()='Year Founded']/following-sibling::a");
+	public By clubTypeLabel = By.xpath("//b[text()='Year Founded']");
+	public By clubTypeValue = By.xpath("//b[text()='Year Founded']");
+	
+	
 	public By clubProfileMenu = By.xpath("//span[text()='Club Profile']");
 	public By myClubSubMenu = By.xpath("//span[text()='My Club']");
 	public By clubFacilitiesSubMenu = By.xpath("//span[text()='Club Facilities']");

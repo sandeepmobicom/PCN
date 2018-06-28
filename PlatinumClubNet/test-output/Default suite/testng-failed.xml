@@ -3,14 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mobicom.tests.AddCurateEventTest">
+      <class name="com.mobicom.tests.ManageMembersTest">
         <methods>
-          <include name="exportReports"/>
-          <include name="clickCurateEventsInMenu"/>
-          <include name="beginTest"/>
+          <include name="checkmanageMembersPageElements"/>
+          <include name="clickOkButtonInMessageConfirmation"/>
+          <include name="clickClosekButtonInMessageConfirmation"/>
           <include name="beforeTheClass"/>
+          <include name="exportReports"/>
+          <include name="clickBulkUploadButton"/>
+          <include name="clickManageMembersInMenu"/>
+          <include name="clickSendInvitatinButton"/>
+          <include name="checkEmailConfirmationPopupElements"/>
+          <include name="chooseAnExcelFile"/>
+          <include name="beginTest"/>
         </methods>
-      </class> <!-- com.mobicom.tests.AddCurateEventTest -->
+      </class> <!-- com.mobicom.tests.ManageMembersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

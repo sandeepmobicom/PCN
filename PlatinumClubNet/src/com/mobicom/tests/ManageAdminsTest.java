@@ -1,8 +1,11 @@
 package com.mobicom.tests;
 
+import static org.junit.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 import java.net.MalformedURLException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
@@ -16,6 +19,7 @@ import com.mobicom.pages.ManageAdminsPage;
 public class ManageAdminsTest extends BaseTest {
 	ManageAdminsPage manageAdminsObject;
 	Alert alert;
+	String todaysDate=new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 	
 	@Parameters("testItem")
 	@BeforeClass
@@ -69,6 +73,51 @@ public class ManageAdminsTest extends BaseTest {
 	@Test(priority=303,dataProvider="addAdmminsPageElements")
 	public void checkAddAdminPageElements(By element, String str) {
 		assertTrue(Utility.isElementDisplayed(element), str);
+	}
+	
+	@Test(priority = 304)
+	public void fillFirstName() {
+		Utility.findElement(manageAdminsObject.firstNameField).sendKeys("Admin "+todaysDate);
+		assertTrue(Utility.findElement(manageAdminsObject.firstNameField).getAttribute("value").equals("Admin "+todaysDate));
+	}
+	
+	@Test(priority = 305)
+	public void fillLastName() {
+		Utility.findElement(manageAdminsObject.lastnameField).sendKeys("Test");
+		assertTrue(Utility.findElement(manageAdminsObject.lastnameField).getAttribute("value").equals("Test"));
+	}
+	
+	@Test(priority = 306)
+	public void fillEmail() {
+		Utility.findElement(manageAdminsObject.emailField).sendKeys("admin"+todaysDate+"@testmail.com");
+		assertTrue(Utility.findElement(manageAdminsObject.emailField).getAttribute("value").equals("admin"+todaysDate+"@testmail.com"));
+	}
+	
+	@Test(priority = 307)
+	public void clickAddAdmin() {
+		Utility.findElement(manageAdminsObject.AddAdminButtonInDetail).click();
+		assertTrue(Utility.isElementDisplayed(By.xpath("//td[text()='Admin "+todaysDate+"']")));
+	}
+	
+	@Test(priority = 308)
+	public void clickSettingsButton() {
+		Utility.findElement(By.xpath("//td[text()='Admin "+todaysDate+"']/following-sibling::td/div/i[contains(@class,'dropdown-toggle')]")).click();
+		assertTrue(Utility.isElementDisplayed(By.xpath("//td[text()='Admin "+todaysDate+"']/following-sibling::td/div/i[contains(@class,'dropdown-toggle')]/following-sibling::ul/li/a[text()='DELETE']")));
+		assertTrue(Utility.isElementDisplayed(By.xpath("//td[text()='Admin "+todaysDate+"']/following-sibling::td/div/i[contains(@class,'dropdown-toggle')]/following-sibling::ul/li/a[text()='MODIFY']")));
+	}
+	
+	@Test(priority = 309)
+	public void clickDeleteButton() {
+		Utility.findElement(By.xpath("//td[text()='Admin "+todaysDate+"']/following-sibling::td/div/i[contains(@class,'dropdown-toggle')]/following-sibling::ul/li/a[text()='DELETE']")).click();
+		assertTrue(Utility.isElementDisplayed(manageAdminsObject.deleteConfirmationMessage));
+		assertTrue(Utility.isElementDisplayed(manageAdminsObject.continueButton));
+	}
+	
+	@Test(priority = 310)
+	public void clickContinueButton() {
+		Utility.findElement(manageAdminsObject.continueButton).click();
+		Utility.nap(1);
+		assertFalse(Utility.isElementDisplayed(By.xpath("//td[text()='Admin "+todaysDate+"']")));
 	}
 	
 

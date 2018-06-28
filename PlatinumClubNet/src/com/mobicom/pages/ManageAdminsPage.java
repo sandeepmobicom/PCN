@@ -24,6 +24,10 @@ public class ManageAdminsPage extends Utility {
 	public By cancelButton=By.xpath("//a[text()='Cancel']");
 	public By AddAdminButtonInDetail=By.xpath("//button[contains(text(),'Add Admin')]");
 	public By confirmationMessage=By.xpath("//div[contains(text(),'Admin updated successfully!')]");
+	public By deleteButton=By.xpath("//a[text()='DELETE']");
+	public By modifyButton=By.xpath("//a[text()='MODIFY']");
+	public By deleteConfirmationMessage=By.xpath("//h5[contains(text(),'Are you sure to continue?')]");
+	public By continueButton=By.xpath("//a[contains(text(),'Continue')]");
 	
 	public ManageAdminsPage(WebDriver driver) {
 		super(driver);

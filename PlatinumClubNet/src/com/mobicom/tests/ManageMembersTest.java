@@ -64,9 +64,10 @@ public class ManageMembersTest extends BaseTest {
 	
 	@Test(priority = 253)
 	public void chooseAnExcelFile() {
-		Utility.findElement(manageMemberObject.chooseFileButton).sendKeys("C:\\Users\\Admin\\Downloads\\MemberTemplate.xls");
+		manageMemberObject.updateMemberExcel();
+		Utility.findElement(manageMemberObject.chooseFileButton).sendKeys("/Volumes/Development/Pcn_Auto/PCN/PlatinumClubNet/MemberTemplate.xls");
 		Utility.findElement(manageMemberObject.uploadMembersButton).click();
-		assertTrue(Utility.isElementDisplayed(manageMemberObject.errorMessage), "Error not displayed");
+		assertTrue(Utility.isElementDisplayed(manageMemberObject.confirmationMessage), "Confirmation message not displayed");
 	}
 	
 	@Test(priority = 254)
@@ -100,7 +101,8 @@ public class ManageMembersTest extends BaseTest {
 	public void clickClosekButtonInMessageConfirmation() {
 		Utility.findElement(manageMemberObject.closeButtonInConfirmationMessage).click();
 		Utility.nap(1);
-		assertFalse(Utility.isElementDisplayed(manageMemberObject.confirmationHeader), "Confirmation message still displayed");
+		assertFalse(driver.findElement(manageMemberObject.confirmationHeader).isDisplayed());
+//		assertFalse(Utility.isElementDisplayed(manageMemberObject.confirmationHeader), "Confirmation message still displayed");
 	}
 
 }

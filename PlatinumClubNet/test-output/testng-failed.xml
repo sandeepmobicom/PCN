@@ -4,14 +4,14 @@
   <test thread-count="5" name="Chrome on mac(failed)">
     <parameter name="testItem" value="Chrome on mac"/>
     <classes>
-      <class name="com.mobicom.tests.AddCurateEventTest">
+      <class name="com.mobicom.tests.ClubProfileTest">
         <methods>
-          <include name="exportReports"/>
-          <include name="deleteCurateEvent"/>
-          <include name="beginTest"/>
           <include name="beforeTheClass"/>
+          <include name="exportReports"/>
+          <include name="beginTest"/>
+          <include name="clickDashboardInMenu"/>
         </methods>
-      </class> <!-- com.mobicom.tests.AddCurateEventTest -->
+      </class> <!-- com.mobicom.tests.ClubProfileTest -->
     </classes>
   </test> <!-- Chrome on mac(failed) -->
 </suite> <!-- Failed suite [Suite] -->

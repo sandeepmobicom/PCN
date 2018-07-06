@@ -49,7 +49,22 @@ public class ClubProfileTest extends BaseTest {
 	public Object[][] getHomePageelements() {
 		Object[][] input = { { loginObject.pageHeader, "Page header not found" },
 				{ loginObject.yearFoundedLabel, "Year founded label not found" },
-				{ loginObject.yearFoundedValue, "Year founded value not found" } };
+				{ loginObject.yearFoundedValue, "Year founded value not found" },
+				{ loginObject.clubTypeLabel, "Club type label not found" },
+				{ loginObject.clubTypeValue, "Club type value not found" },
+				{ loginObject.totalMembersLabel, "Total members label not found" },
+				{ loginObject.totalMembersValue, "Total members value not found" },
+				{ loginObject.clubUrlLabel, "Club URL label not found" },
+				{ loginObject.clubUrlValue, "Club URL value not found" },
+				{ loginObject.locationLabel, "Location label not found" },
+				{ loginObject.locationValue, "Location value not found" },
+				{ loginObject.phoneFieldLabel, "Phone field label not found" },
+				{ loginObject.phoneFieldValue, "Phone field value not found" },
+				{ loginObject.emailLabel, "Email label not found" },
+				{ loginObject.emailValue, "Email value value not found" },
+				{ loginObject.aboutUsTab, "About us tab not found" },
+				{ loginObject.affiliatedClubsTab, "Affiliated Clubs tab not found" },
+				{ loginObject.boardMembersTab, "Board members tab not found" } };
 		return input;
 	}
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="30" passed="29">
+<testng-results skipped="0" failed="0" ignored="1" total="26" passed="25">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16973" started-at="2018-06-22T12:00:31Z" finished-at="2018-06-22T12:00:48Z">
+  <suite name="Suite" duration-ms="7943" started-at="2018-07-06T05:36:22Z" finished-at="2018-07-06T05:36:30Z">
     <groups>
     </groups>
-    <test name="Chrome on mac" duration-ms="16973" started-at="2018-06-22T12:00:31Z" finished-at="2018-06-22T12:00:48Z">
-      <class name="com.mobicom.tests.AddCurateEventTest">
-        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beforeTheClass" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:36Z" finished-at="2018-06-22T12:00:36Z">
+    <test name="Chrome on mac" duration-ms="7943" started-at="2018-07-06T05:36:22Z" finished-at="2018-07-06T05:36:30Z">
+      <class name="com.mobicom.tests.ClubProfileTest">
+        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beforeTheClass" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:27Z" finished-at="2018-07-06T05:36:27Z">
           <params>
             <param index="0">
               <value>
@@ -18,881 +18,771 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTheClass -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:36Z" finished-at="2018-06-22T12:00:36Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:27Z" finished-at="2018-07-06T05:36:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.clickCurateEventsInMenu()]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.clickDashboardInMenu()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="clickCurateEventsInMenu()[pri:150, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="clickCurateEventsInMenu" duration-ms="830" started-at="2018-06-22T12:00:36Z" finished-at="2018-06-22T12:00:37Z">
+        <test-method status="PASS" signature="clickDashboardInMenu()[pri:51, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="clickDashboardInMenu" duration-ms="127" started-at="2018-07-06T05:36:27Z" finished-at="2018-07-06T05:36:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickCurateEventsInMenu -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:37Z" finished-at="2018-06-22T12:00:37Z">
+        </test-method> <!-- clickDashboardInMenu -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:27Z" finished-at="2018-07-06T05:36:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickCurateEventsInMenu status=SUCCESS method=AddCurateEventTest.clickCurateEventsInMenu()[pri:150, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=clickDashboardInMenu status=SUCCESS method=ClubProfileTest.clickDashboardInMenu()[pri:51, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:37Z" finished-at="2018-06-22T12:00:37Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:27Z" finished-at="2018-07-06T05:36:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.clickListOfCurateEventsInMenu()]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.clickClubProfileInMenu() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="clickListOfCurateEventsInMenu()[pri:151, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="clickListOfCurateEventsInMenu" duration-ms="1592" started-at="2018-06-22T12:00:37Z" finished-at="2018-06-22T12:00:39Z">
+        <test-method status="PASS" signature="clickClubProfileInMenu()[pri:52, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="clickClubProfileInMenu" duration-ms="820" started-at="2018-07-06T05:36:27Z" finished-at="2018-07-06T05:36:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickListOfCurateEventsInMenu -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
+        </test-method> <!-- clickClubProfileInMenu -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:28Z" finished-at="2018-07-06T05:36:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickListOfCurateEventsInMenu status=SUCCESS method=AddCurateEventTest.clickListOfCurateEventsInMenu()[pri:151, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=clickClubProfileInMenu status=SUCCESS method=ClubProfileTest.clickClubProfileInMenu()[pri:52, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:28Z" finished-at="2018-07-06T05:36:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.clickBasicInfoInMenu()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:152, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyCurateEventsPageElements" duration-ms="45" started-at="2018-06-22T12:00:39Z" data-provider="curateEventsPageElements" finished-at="2018-06-22T12:00:39Z">
+        <test-method status="PASS" signature="clickBasicInfoInMenu()[pri:53, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="clickBasicInfoInMenu" duration-ms="873" started-at="2018-07-06T05:36:28Z" finished-at="2018-07-06T05:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBasicInfoInMenu -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //h3[text()='Curated Events']]]>
+                <![CDATA[[TestResult name=clickBasicInfoInMenu status=SUCCESS method=ClubProfileTest.clickBasicInfoInMenu()[pri:53, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="52" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //h4[text()='Club Management System']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Curate facilities header not found]]>
+                <![CDATA[Page header not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:152, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="71" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:152, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyCurateEventsPageElements" duration-ms="67" started-at="2018-06-22T12:00:39Z" data-provider="curateEventsPageElements" finished-at="2018-06-22T12:00:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[By.xpath: //div[@class='text-justify']/p]]>
+                <![CDATA[By.xpath: //b[text()='Year Founded']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Description not found]]>
+                <![CDATA[Year founded label not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:152, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:152, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyCurateEventsPageElements" duration-ms="63" started-at="2018-06-22T12:00:39Z" data-provider="curateEventsPageElements" finished-at="2018-06-22T12:00:39Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //span[text()='Add Facilities For Curated Events']]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="65" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //b[text()='Year Founded']/following-sibling::a]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Add curate events button not found]]>
+                <![CDATA[Year founded value not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="2" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:152, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.clickAddCurateEvent()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="clickAddCurateEvent()[pri:153, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="clickAddCurateEvent" duration-ms="1233" started-at="2018-06-22T12:00:39Z" finished-at="2018-06-22T12:00:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickAddCurateEvent -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:40Z" finished-at="2018-06-22T12:00:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickAddCurateEvent status=SUCCESS method=AddCurateEventTest.clickAddCurateEvent()[pri:153, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:40Z" finished-at="2018-06-22T12:00:40Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="3" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="50" started-at="2018-06-22T12:00:40Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:40Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="47" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //h3[text()='Add Curated Event']]]>
+                <![CDATA[By.xpath: //b[text()='Year Founded']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Header not found]]>
+                <![CDATA[Club type label not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:40Z" finished-at="2018-06-22T12:00:40Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:40Z" finished-at="2018-06-22T12:00:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="51" started-at="2018-06-22T12:00:40Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:40Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="79" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.id: facility_id]]>
+                <![CDATA[By.xpath: //a[text()='Country Club']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Facility drop down not found]]>
+                <![CDATA[Club type value not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:40Z" finished-at="2018-06-22T12:00:40Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:40Z" finished-at="2018-06-22T12:00:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="256" started-at="2018-06-22T12:00:40Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //a[@class='btn submit-btn facility_choice_add']]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="63" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //b[text()='Total Members']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Add facility button not found]]>
+                <![CDATA[Total members label not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="60" started-at="2018-06-22T12:00:41Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="60" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //input[@name='start_date[0]']]]>
+                <![CDATA[By.xpath: //b[text()='Total Members']/following-sibling::a]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Start date field not found]]>
+                <![CDATA[Total members value not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="68" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="61" started-at="2018-06-22T12:00:41Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[By.xpath: //input[@name='end_date[0]']]]>
+                <![CDATA[By.xpath: //b[text()='Club URL']]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[End date field not found]]>
+                <![CDATA[Club URL label not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="50" started-at="2018-06-22T12:00:41Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //input[@name='start_time[0]']]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="72" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //div[contains(@class,'ClubUrl')]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Start time field not found]]>
+                <![CDATA[Club URL value not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="64" started-at="2018-06-22T12:00:41Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="69" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //input[@name='end_time[0]']]]>
+                <![CDATA[By.xpath: //strong[contains(text(),'Location')]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[End time field not found]]>
+                <![CDATA[Location label not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="51" started-at="2018-06-22T12:00:41Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.xpath: //a[@class='btn cancel-btn btn-sha btn-ad1 btnwidth nav_action nav_cancel']]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="70" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //strong[contains(text(),'Location')]/following-sibling::div[contains(text(),'Bangalore')]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Cancel button not found]]>
+                <![CDATA[Location value not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="56" started-at="2018-06-22T12:00:41Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:29Z" finished-at="2018-07-06T05:36:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.id: action_save]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="60" started-at="2018-07-06T05:36:29Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By.xpath: //strong[contains(text(),'Phone')]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Save button not found]]>
+                <![CDATA[Phone field label not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="6" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="verifyAddCurateEventsPageElements" duration-ms="58" started-at="2018-06-22T12:00:41Z" data-provider="addCurateEventsPageElements" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="65" started-at="2018-07-06T05:36:30Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[By.id: action_publish]]>
+                <![CDATA[By.xpath: //strong[contains(text(),'Phone')]/../p[contains(text(),'9844098440')]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Publish button not found]]>
+                <![CDATA[Phone field value not found]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddCurateEventsPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By,java.lang.String)]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddCurateEventsPageElements status=SUCCESS method=AddCurateEventTest.verifyAddCurateEventsPageElements(org.openqa.selenium.By, java.lang.String)[pri:154, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="63" started-at="2018-07-06T05:36:30Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.selectFacility()]]>
+                <![CDATA[By.xpath: //strong[contains(text(),'Email')]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Email label not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="selectFacility()[pri:155, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="selectFacility" duration-ms="362" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFacility -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectFacility status=SUCCESS method=AddCurateEventTest.selectFacility()[pri:155, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="updateRemarks()[pri:156, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="updateRemarks" duration-ms="272" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateRemarks -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:41Z" finished-at="2018-06-22T12:00:41Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.updateRemarks()]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="64" started-at="2018-07-06T05:36:30Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=updateRemarks status=SUCCESS method=AddCurateEventTest.updateRemarks()[pri:156, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[By.xpath: //strong[contains(text(),'Email')]/../p]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Email value value not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="enterStartDate()[pri:157, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="enterStartDate" duration-ms="50" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterStartDate -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.enterStartDate()]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="74" started-at="2018-07-06T05:36:30Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterStartDate status=SUCCESS method=AddCurateEventTest.enterStartDate()[pri:157, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[By.xpath: //a[contains(text(),'About Us')]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[About us tab not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="enterEndDate()[pri:158, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="enterEndDate" duration-ms="54" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterEndDate -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="65" started-at="2018-07-06T05:36:30Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.enterEndDate() throws java.lang.InterruptedException]]>
+                <![CDATA[By.xpath: //a[contains(text(),'Affiliated Clubs')]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Affiliated Clubs tab not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterEndDate status=SUCCESS method=AddCurateEventTest.enterEndDate()[pri:158, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="enterStartTime()[pri:159, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="enterStartTime" duration-ms="251" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterStartTime -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.enterStartTime()]]>
+                <![CDATA[public void com.mobicom.tests.ClubProfileTest.testProfilePageElements(org.openqa.selenium.By,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
+        <test-method status="PASS" signature="testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="testProfilePageElements" duration-ms="65" started-at="2018-07-06T05:36:30Z" data-provider="homePageElements" finished-at="2018-07-06T05:36:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterStartTime status=SUCCESS method=AddCurateEventTest.enterStartTime()[pri:159, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
+                <![CDATA[By.xpath: //a[contains(text(),'Board Members')]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Board members tab not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfilePageElements -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProfilePageElements status=SUCCESS method=ClubProfileTest.testProfilePageElements(org.openqa.selenium.By, java.lang.String)[pri:54, instance:com.mobicom.tests.ClubProfileTest@38bc8ab5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.enterEndTime()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="enterEndTime()[pri:160, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="enterEndTime" duration-ms="213" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterEndTime -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enterEndTime status=SUCCESS method=AddCurateEventTest.enterEndTime()[pri:160, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="clickSaveButton()[pri:161, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="clickSaveButton" duration-ms="922" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSaveButton -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:42Z" finished-at="2018-06-22T12:00:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.clickSaveButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:43Z" finished-at="2018-06-22T12:00:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickSaveButton status=SUCCESS method=AddCurateEventTest.clickSaveButton()[pri:161, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:43Z" finished-at="2018-06-22T12:00:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.modifyEvent()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="modifyEvent()[pri:162, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="modifyEvent" duration-ms="1347" started-at="2018-06-22T12:00:43Z" finished-at="2018-06-22T12:00:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyEvent -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:44Z" finished-at="2018-06-22T12:00:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=modifyEvent status=SUCCESS method=AddCurateEventTest.modifyEvent()[pri:162, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="clickPublishButton()[pri:163, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="clickPublishButton" duration-ms="685" started-at="2018-06-22T12:00:44Z" finished-at="2018-06-22T12:00:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickPublishButton -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:44Z" finished-at="2018-06-22T12:00:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.clickPublishButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:45Z" finished-at="2018-06-22T12:00:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickPublishButton status=SUCCESS method=AddCurateEventTest.clickPublishButton()[pri:163, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:45Z" finished-at="2018-06-22T12:00:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mobicom.tests.AddCurateEventTest.deleteCurateEvent() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beginTest -->
-        <test-method status="FAIL" signature="deleteCurateEvent()[pri:164, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="deleteCurateEvent" duration-ms="2301" started-at="2018-06-22T12:00:45Z" finished-at="2018-06-22T12:00:47Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Curate event not deleted expected [0] but found [1]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Curate event not deleted expected [0] but found [1]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:652)
-at com.mobicom.tests.AddCurateEventTest.deleteCurateEvent(AddCurateEventTest.java:166)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteCurateEvent -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.AddCurateEventTest@7113b13f]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:47Z" finished-at="2018-06-22T12:00:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=deleteCurateEvent status=FAILURE method=AddCurateEventTest.deleteCurateEvent()[pri:164, instance:com.mobicom.tests.AddCurateEventTest@7113b13f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-      </class> <!-- com.mobicom.tests.AddCurateEventTest -->
+      </class> <!-- com.mobicom.tests.ClubProfileTest -->
       <class name="com.mobicom.tests.LoginTest">
-        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="beforeTheClass" is-config="true" duration-ms="3293" started-at="2018-06-22T12:00:31Z" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="beforeTheClass(java.lang.String)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="beforeTheClass" is-config="true" duration-ms="2589" started-at="2018-07-06T05:36:22Z" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -903,7 +793,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTheClass -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="beginTest" is-config="true" duration-ms="4" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="beginTest" is-config="true" duration-ms="5" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -914,7 +804,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@60285225]" name="testLoginPageElements" duration-ms="91" started-at="2018-06-22T12:00:34Z" data-provider="loginPageElements" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="testLoginPageElements" duration-ms="88" started-at="2018-07-06T05:36:25Z" data-provider="loginPageElements" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -930,18 +820,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="exportReports" is-config="true" duration-ms="5" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="exportReports" is-config="true" duration-ms="11" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@60285225] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -952,7 +842,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@60285225]" name="testLoginPageElements" duration-ms="65" started-at="2018-06-22T12:00:34Z" data-provider="loginPageElements" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="testLoginPageElements" duration-ms="89" started-at="2018-07-06T05:36:25Z" data-provider="loginPageElements" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -968,7 +858,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6b9651f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportReports -->
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -979,18 +880,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@60285225] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@60285225]" name="testLoginPageElements" duration-ms="63" started-at="2018-06-22T12:00:34Z" data-provider="loginPageElements" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="testLoginPageElements" duration-ms="72" started-at="2018-07-06T05:36:25Z" data-provider="loginPageElements" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -1006,22 +896,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageElements -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@60285225] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageElements status=SUCCESS method=LoginTest.testLoginPageElements(org.openqa.selenium.By, java.lang.String)[pri:1, instance:com.mobicom.tests.LoginTest@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@60285225]" name="loginToClub" duration-ms="2016" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToClub -->
-        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="beginTest" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:34Z" finished-at="2018-06-22T12:00:34Z">
+        <test-method status="PASS" signature="beginTest(java.lang.reflect.Method)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="beginTest" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:25Z">
           <params>
             <param index="0">
               <value>
@@ -1032,18 +918,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beginTest -->
-        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="exportReports" is-config="true" duration-ms="0" started-at="2018-06-22T12:00:36Z" finished-at="2018-06-22T12:00:36Z">
+        <test-method status="PASS" signature="loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="loginToClub" duration-ms="1707" started-at="2018-07-06T05:36:25Z" finished-at="2018-07-06T05:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToClub -->
+        <test-method status="PASS" signature="exportReports(org.testng.ITestResult)[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="exportReports" is-config="true" duration-ms="1" started-at="2018-07-06T05:36:27Z" finished-at="2018-07-06T05:36:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToClub status=SUCCESS method=LoginTest.loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@60285225] output={null}]]]>
+                <![CDATA[[TestResult name=loginToClub status=SUCCESS method=LoginTest.loginToClub()[pri:2, instance:com.mobicom.tests.LoginTest@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exportReports -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.mobicom.tests.LoginTest@60285225]" name="endTest" is-config="true" duration-ms="308" started-at="2018-06-22T12:00:47Z" finished-at="2018-06-22T12:00:48Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.mobicom.tests.LoginTest@6b9651f3]" name="endTest" is-config="true" duration-ms="307" started-at="2018-07-06T05:36:30Z" finished-at="2018-07-06T05:36:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

@@ -3,6 +3,7 @@ package com.mobicom.tests;
 import static org.testng.Assert.assertTrue;
 
 import java.net.MalformedURLException;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
@@ -17,11 +18,13 @@ import com.mobicom.pages.LoginPage;
 
 public class LoginTest extends BaseTest {
 	LoginPage obj;
+	Properties prop;
 
 	@Parameters("testItem")
 	@BeforeClass
 	public void beforeTheClass(@Optional("Chrome on mac") String param) throws MalformedURLException {
 		initTest(param);
+		prop=getProperties();
 		obj = new LoginPage(driver);
 	}
 
@@ -39,8 +42,8 @@ public class LoginTest extends BaseTest {
 
 	@Test(priority = 2)
 	public void loginToClub() {
-		Utility.findElement(obj.username).sendKeys("royalmanor");
-		Utility.findElement(obj.password).sendKeys("welcome");
+		Utility.findElement(obj.username).sendKeys(prop.getProperty("username"));
+		Utility.findElement(obj.password).sendKeys(prop.getProperty("password"));
 		Utility.findElement(obj.loginButton).click();
 		assertTrue(Utility.isElementDisplayed(obj.pageHeader), "Login failed");
 	}

@@ -55,14 +55,14 @@ public class ManageMembersTest extends BaseTest {
 		assertTrue(Utility.isElementDisplayed(element), str);
 	}
 
-	@Test(priority = 252)
+	@Test(priority = 252,enabled =false)
 	public void clickBulkUploadButton() {
 		Utility.findElement(manageMemberObject.bulkUploadButton).click();
 		assertTrue(Utility.isElementDisplayed(manageMemberObject.chooseFileButton), "Choose file button not found");
 		assertTrue(Utility.isElementDisplayed(manageMemberObject.uploadMembersButton), "Upload button not found");
 	}
 	
-	@Test(priority = 253)
+	@Test(priority = 253,enabled =false)
 	public void chooseAnExcelFile() {
 		manageMemberObject.updateMemberExcel();
 		Utility.findElement(manageMemberObject.chooseFileButton).sendKeys("/Volumes/Development/Pcn_Auto/PCN/PlatinumClubNet/MemberTemplate.xls");
@@ -70,7 +70,7 @@ public class ManageMembersTest extends BaseTest {
 		assertTrue(Utility.isElementDisplayed(manageMemberObject.confirmationMessage), "Confirmation message not displayed");
 	}
 	
-	@Test(priority = 254)
+	@Test(priority = 254,enabled =false)
 	public void clickSendInvitatinButton() {
 		Utility.findElement(manageMemberObject.sendInvitationButton).click();
 		assertTrue(Utility.isElementDisplayed(manageMemberObject.confirmationHeader), "Confirmation header not displayed");
@@ -86,19 +86,19 @@ public class ManageMembersTest extends BaseTest {
 		return input;
 	}
 	
-	@Test(priority=255,dataProvider="emailConfirmationPopupElements")
+	@Test(priority=255,dataProvider="emailConfirmationPopupElements",enabled =false)
 	public void checkEmailConfirmationPopupElements(By element, String str) {
 		assertTrue(Utility.isElementDisplayed(element), str);
 	}
 	
-	@Test(priority = 260)
+	@Test(priority = 260,enabled =false)
 	public void clickOkButtonInMessageConfirmation() {
 		Utility.findElement(manageMemberObject.okButtonInConfirmationMessage).click();
 		assertTrue(Utility.isElementDisplayed(manageMemberObject.messageAfterConfirmation), "Confirmation message not displayed");
 	}
 	
-	@Test(priority = 261)
-	public void clickClosekButtonInMessageConfirmation() {
+	@Test(priority = 261,enabled =false)
+	public void clickCloseButtonInMessageConfirmation() {
 		Utility.findElement(manageMemberObject.closeButtonInConfirmationMessage).click();
 		Utility.nap(1);
 		assertFalse(driver.findElement(manageMemberObject.confirmationHeader).isDisplayed());

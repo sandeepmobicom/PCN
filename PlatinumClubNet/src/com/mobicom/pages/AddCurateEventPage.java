@@ -29,8 +29,8 @@ public class AddCurateEventPage extends Utility {
 	public By saveButton = By.id("action_save");
 	public By publishButton = By.id("action_publish");
 	public By facilityName = By.xpath("//input[@id='facility_name']");
-	public By addedCurateEvent = By.xpath("//td[contains(text(),'DEMO')]");
-	public By settingsButtonForAddedEvent = By.xpath("//td[contains(text(),'DEMO')]/following-sibling::td/div/i[contains(@class,'dropdown-toggle')]");
+	public By addedCurateEvent = By.xpath("//td[contains(text(),'Pool')]");
+	public By settingsButtonForAddedEvent = By.xpath("//td[contains(text(),'Pool')]/following-sibling::td/div/i[contains(@class,'dropdown-toggle')]");
 	public By modifyButton = By.xpath("//a[text()='MODIFY']");
 	public By deleteButton = By.xpath("//a[text()='DELETE']");
 

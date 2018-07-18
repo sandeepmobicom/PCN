@@ -13,7 +13,7 @@ public class AddFacilityPage extends Utility {
 	public By clubFacilitiesSubMenu = By.xpath("//span[text()='Club Facilities']");
 	public By clubFacilitiesTitle = By.xpath("//h3[text()='Facilities on Your Club Profile']");
 	public By addfacilityButton = By.xpath("//p[@class=\"card-header\"]/b");
-	public By addedFacility = By.xpath("//div[@class=\"card-header ellip\"]/b[text()='New Test Facility']");
+	public By addedFacility = By.xpath("//div[@class='card-header ellip']/b[text()='Pool']");
 	public By deleteButton = By.xpath("//a[@title='Delete']");
 	public By selectImagesButton = By.xpath("//a[text()='select Images']");
 	public By newImage = By.xpath("//img[@title='newImage']");

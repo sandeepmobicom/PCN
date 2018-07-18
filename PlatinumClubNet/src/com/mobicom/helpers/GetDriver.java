@@ -22,6 +22,7 @@ public class GetDriver {
 	static Logger log = Logger.getLogger(GetDriver.class);
 	public static String activeTest = "";
 	public static DesiredCapabilities caps;
+	
 
 	public static WebDriver returnDriver(String testName) throws MalformedURLException {
 		if (driver == null || activeTest != testName) {
@@ -48,12 +49,12 @@ public class GetDriver {
 	public static void getDriver(String testName) throws MalformedURLException {
 		switch (testName) {
 		case "Chrome on mac":
-			System.setProperty("webdriver.chrome.driver", "/Volumes/Development/MerchantCmsAutomation/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/Volumes/Development/MerchantCms/chromedriver");
 			driver = new ChromeDriver();
 //			caps=DesiredCapabilities.chrome();
 //			caps.setPlatform(Platform.MAC);
 //			caps.setBrowserName("chrome");
-//			driver=new RemoteWebDriver(new URL("http://192.168.0.103:4444/wd/hub"),caps);
+//			driver=new RemoteWebDriver(new URL("http://192.168.0.101:4444/wd/hub"),caps);
 			break;
 
 		case "Firefox on mac":
@@ -62,7 +63,7 @@ public class GetDriver {
 //			caps=DesiredCapabilities.firefox();
 //			caps.setPlatform(Platform.MAC);
 //			caps.setBrowserName("firefox");
-//			driver=new RemoteWebDriver(new URL("http://192.168.0.103:4444/wd/hub"),caps);
+//			driver=new RemoteWebDriver(new URL("http://192.168.0.101:4444/wd/hub"),caps);
 			break;
 			
 		case "Safari on mac":
@@ -71,7 +72,7 @@ public class GetDriver {
 //			caps=DesiredCapabilities.firefox();
 //			caps.setPlatform(Platform.MAC);
 //			caps.setBrowserName("firefox");
-//			driver=new RemoteWebDriver(new URL("http://192.168.0.103:4444/wd/hub"),caps);
+//			driver=new RemoteWebDriver(new URL("http://192.168.0.101:4444/wd/hub"),caps);
 			break;
 
 		default:

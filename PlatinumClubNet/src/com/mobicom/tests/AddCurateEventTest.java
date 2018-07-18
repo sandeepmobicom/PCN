@@ -96,9 +96,9 @@ public class AddCurateEventTest extends BaseTest {
 	@Test(priority = 155)
 	public void selectFacility() {
 		Select select = new Select(Utility.findElement(addCurateObject.facilityDropDown));
-		select.selectByVisibleText("DEMO");
+		select.selectByVisibleText("Pool");
 		System.out.println(select.getFirstSelectedOption().getText());
-		assertEquals(Utility.findElementVisible(addCurateObject.facilityName).getAttribute("value"), "DEMO");
+		assertEquals(Utility.findElementVisible(addCurateObject.facilityName).getAttribute("value"), "Pool");
 	}
 
 	@Test(priority = 156)

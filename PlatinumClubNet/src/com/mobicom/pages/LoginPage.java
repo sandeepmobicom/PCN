@@ -41,7 +41,7 @@ public class LoginPage extends Utility {
 	public By clubFacilitiesTitle = By.xpath("//h3[text()='Facilities on Your Club Profile']");
 	public By dashBoardMenu = By.xpath("//span[text()='Dashboard']");
 	public By dashBoardHeader = By.xpath("//h3[text()='Dashboard']");
-	public By memberAccessDashBoardOption = By.xpath("//a[contains(text(),'Member Requests')]");
+	public By memberAccessDashBoardOption = By.xpath("//a[contains(text(),'Requests for Member Access')]");
 	public By addfacilityButton=By.xpath("//p[@class=\"card-header\"]/b");
 
 	public LoginPage(WebDriver driver) {

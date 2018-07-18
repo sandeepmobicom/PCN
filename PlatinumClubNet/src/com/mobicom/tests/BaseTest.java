@@ -27,9 +27,8 @@ public class BaseTest {
     public BaseTest() {
     	    log = Logger.getLogger( BaseTest.class );
         File file = new File( "./resources/resources.properties" );
-        FileInputStream fileInput = null;
         try {
-            fileInput = new FileInputStream( file );
+        	FileInputStream fileInput = new FileInputStream( file );
             prop.load( fileInput );
         } catch ( Exception e ) {
             log.warn( "Failed to load resources.properties" + e.getMessage() );

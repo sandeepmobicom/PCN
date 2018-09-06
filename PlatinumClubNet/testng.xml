@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="none">
+<suite name="Suite" parallel="false" verbose="2">
 
-	<test name="Chrome on mac"  preserve-order="true">
+	<test name="Chrome on mac" preserve-order="true">
 		<parameter name="testItem" value="Chrome on mac" />
 		<classes>
+<!-- 			<class name="com.mobicom.tests.LoginTest" />
+			<class name="com.mobicom.tests.ClubProfileTest" /> -->
 			<class name="com.mobicom.tests.LoginTest" />
- 			<class name="com.mobicom.tests.HomePageTest" />
-			<class name="com.mobicom.tests.AddFacilityTest" /> 
+		 	<class name="com.mobicom.tests.ClubProfileTest" />
+			<class name="com.mobicom.tests.AddFacilityTest" />
 			<class name="com.mobicom.tests.AddCurateEventTest" />
 			<class name="com.mobicom.tests.MemberAccessTest" />
+			<class name="com.mobicom.tests.ManageMembersTest" />
+			<class name="com.mobicom.tests.ManageAdminsTest" /> 
 		</classes>
 	</test>
 
-	<!-- <test name="Firefox on mac">
-		<parameter name="testItem" value="Firefox on mac" />
+<!-- 	<test name="Firefox on mac">
+		<parameter name="testItem" value="Firefox 
+		on mac" />
 		<classes>
 			<class name="com.mobicom.tests.LoginTest" />
 			<class name="com.mobicom.tests.HomePageTest" />
 			<class name="com.mobicom.tests.AddFacilityTest" />
 		</classes>
 	</test>
-
-
 	<test name="Safari on mac">
 		<parameter name="testItem" value="Safari on mac" />
 		<classes>

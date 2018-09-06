@@ -4,6 +4,8 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.net.MalformedURLException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -24,6 +26,7 @@ public class AddCurateEventTest extends BaseTest {
 	JavascriptExecutor js;
 	Alert alert;
 	int publishedItems = 0;
+	String todaysDate = new SimpleDateFormat("dd/MM/YYYY").format(new Date());
 
 	@Parameters("testItem")
 	@BeforeClass
@@ -36,14 +39,16 @@ public class AddCurateEventTest extends BaseTest {
 	@Test(priority = 150)
 	public void clickCurateEventsInMenu() {
 		Utility.findElement(addCurateObject.curateFacilitiesInMenu).click();
-		assertTrue(Utility.isElementDisplayed(addCurateObject.listOfFacilitiesInMenu),
-				"List of facilities option not found");
+		assertTrue(Utility.isElementDisplayed(addCurateObject.clubFacilitiesInMenu),
+				"Club facilities option not found");
+		assertTrue(Utility.isElementDisplayed(addCurateObject.curateEventQuestionnaire),
+				"Questionnaire option not found");
 		assertTrue(Utility.isElementDisplayed(addCurateObject.statusInMenu), "Status option not found");
 	}
 
 	@Test(priority = 151)
 	public void clickListOfCurateEventsInMenu() {
-		Utility.findElement(addCurateObject.listOfFacilitiesInMenu).click();
+		Utility.findElement(addCurateObject.clubFacilitiesInMenu).click();
 		assertTrue(Utility.isElementDisplayed(addCurateObject.curateFacilitiesHeader),
 				"Curate events section not loaded");
 	}
@@ -52,8 +57,7 @@ public class AddCurateEventTest extends BaseTest {
 	public Object[][] getCurateEventsPageElements() {
 		Object[][] input = { { addCurateObject.curateFacilitiesHeader, "Curate facilities header not found" },
 				{ addCurateObject.curateFacilitiesDescription, "Description not found" },
-				{ addCurateObject.addCurateEvents, "Add curate events button not found" },
-				{ addCurateObject.editCurateEventQuestionnaire, "Edit curate events questionnaire button not found" } };
+				{ addCurateObject.addCurateEvents, "Add curate events button not found" } };
 		return input;
 	}
 
@@ -92,10 +96,9 @@ public class AddCurateEventTest extends BaseTest {
 	@Test(priority = 155)
 	public void selectFacility() {
 		Select select = new Select(Utility.findElement(addCurateObject.facilityDropDown));
-		select.selectByVisibleText("My Test Facility");
+		select.selectByVisibleText("Pool");
 		System.out.println(select.getFirstSelectedOption().getText());
-		assertEquals(Utility.findElementVisible(addCurateObject.facilityName).getAttribute("value"),
-				"My Test Facility");
+		assertEquals(Utility.findElementVisible(addCurateObject.facilityName).getAttribute("value"), "Pool");
 	}
 
 	@Test(priority = 156)
@@ -108,8 +111,9 @@ public class AddCurateEventTest extends BaseTest {
 
 	@Test(priority = 157)
 	public void enterStartDate() {
-		js.executeScript("document.getElementsByClassName('datepicker')[1].value='30/04/2018'");
-		assertEquals(Utility.findElement(addCurateObject.startDateField).getAttribute("value"), "30/04/2018");
+		System.out.println("Todays date: " + todaysDate);
+		js.executeScript("document.getElementsByClassName('datepicker')[1].value='" + todaysDate + "'");
+		assertEquals(Utility.findElement(addCurateObject.startDateField).getAttribute("value"), todaysDate);
 	}
 
 	@Test(priority = 158)
@@ -159,8 +163,8 @@ public class AddCurateEventTest extends BaseTest {
 		alert = driver.switchTo().alert();
 		alert.accept();
 		Thread.sleep(2000);
-		assertEquals(Utility.getMultipleElements(addCurateObject.facilityName).size(), 0,
-				"Curate event detail not displayed");
+		assertEquals(Utility.getMultipleElements(addCurateObject.addedCurateEvent).size(), 0,
+				"Curate event not deleted");
 	}
 
 }

@@ -6,12 +6,109 @@
     <classes>
       <class name="com.mobicom.tests.MemberAccessTest">
         <methods>
-          <include name="verifyAllowMemberAccessPageElements" invocation-numbers="7"/>
+          <include name="clickMemberAccessInMenu"/>
+          <include name="clickNextButtonInRemoveAccess"/>
+          <include name="clickBlockingRequestsButton"/>
           <include name="exportReports"/>
+          <include name="verifyBlockMemberAccessPageElements"/>
           <include name="beginTest"/>
           <include name="beforeTheClass"/>
+          <include name="verifyMemberAccessPageElements"/>
+          <include name="clickAcceptingRequestsButton"/>
+          <include name="verifyAllowMemberAccessPageElements"/>
+          <include name="clickRedToggle"/>
+          <include name="clickNextButton"/>
+          <include name="clickGreenToggle"/>
+          <include name="clickOkButton"/>
         </methods>
       </class> <!-- com.mobicom.tests.MemberAccessTest -->
+      <class name="com.mobicom.tests.ManageAdminsTest">
+        <methods>
+          <include name="clickDeleteButton"/>
+          <include name="exportReports"/>
+          <include name="clickManageAdminsInMenu"/>
+          <include name="beforeTheClass"/>
+          <include name="beginTest"/>
+          <include name="fillFirstName"/>
+          <include name="checkAddAdminPageElements"/>
+          <include name="checkManageAdminPageElements"/>
+          <include name="clickAddAdmin"/>
+          <include name="clickSettingsButton"/>
+          <include name="clickContinueButton"/>
+          <include name="clickAddAdminButton"/>
+          <include name="fillEmail"/>
+          <include name="fillLastName"/>
+        </methods>
+      </class> <!-- com.mobicom.tests.ManageAdminsTest -->
+      <class name="com.mobicom.tests.AddCurateEventTest">
+        <methods>
+          <include name="clickPublishButton"/>
+          <include name="exportReports"/>
+          <include name="clickCurateEventsInMenu"/>
+          <include name="enterStartTime"/>
+          <include name="clickListOfCurateEventsInMenu"/>
+          <include name="selectFacility"/>
+          <include name="beginTest"/>
+          <include name="enterEndDate"/>
+          <include name="beforeTheClass"/>
+          <include name="clickSaveButton"/>
+          <include name="enterStartDate"/>
+          <include name="enterEndTime"/>
+          <include name="modifyEvent"/>
+          <include name="verifyAddCurateEventsPageElements"/>
+          <include name="deleteCurateEvent"/>
+          <include name="updateRemarks"/>
+          <include name="clickAddCurateEvent"/>
+          <include name="verifyCurateEventsPageElements"/>
+        </methods>
+      </class> <!-- com.mobicom.tests.AddCurateEventTest -->
+      <class name="com.mobicom.tests.ClubProfileTest">
+        <methods>
+          <include name="beforeTheClass"/>
+          <include name="exportReports"/>
+          <include name="clickClubProfileInMenu"/>
+          <include name="testProfilePageElements"/>
+          <include name="clickBasicInfoInMenu"/>
+          <include name="beginTest"/>
+          <include name="clickDashboardInMenu"/>
+        </methods>
+      </class> <!-- com.mobicom.tests.ClubProfileTest -->
+      <class name="com.mobicom.tests.AddFacilityTest">
+        <methods>
+          <include name="clickClubFacilitiesInMenu"/>
+          <include name="selectFacilityCategory"/>
+          <include name="deleteFacility"/>
+          <include name="exportReports"/>
+          <include name="verifyClubFacilitiesElements"/>
+          <include name="beforeTheClass"/>
+          <include name="clickSaveButton"/>
+          <include name="publishNewfacility"/>
+          <include name="beginTest"/>
+          <include name="selectAnImage"/>
+          <include name="enterFacilityDescription"/>
+          <include name="enterFacilityName"/>
+          <include name="enterFacilityCancellationPolicy"/>
+          <include name="enterFacilityRules"/>
+          <include name="clickSelectImage"/>
+          <include name="clickAddFacilitiesInMenu"/>
+          <include name="clickDaysOfWeekButton"/>
+        </methods>
+      </class> <!-- com.mobicom.tests.AddFacilityTest -->
+      <class name="com.mobicom.tests.ManageMembersTest">
+        <methods>
+          <include name="checkmanageMembersPageElements"/>
+          <include name="clickOkButtonInMessageConfirmation"/>
+          <include name="clickClosekButtonInMessageConfirmation"/>
+          <include name="beforeTheClass"/>
+          <include name="exportReports"/>
+          <include name="clickBulkUploadButton"/>
+          <include name="clickManageMembersInMenu"/>
+          <include name="clickSendInvitatinButton"/>
+          <include name="checkEmailConfirmationPopupElements"/>
+          <include name="chooseAnExcelFile"/>
+          <include name="beginTest"/>
+        </methods>
+      </class> <!-- com.mobicom.tests.ManageMembersTest -->
     </classes>
   </test> <!-- Chrome on mac(failed) -->
 </suite> <!-- Failed suite [Suite] -->

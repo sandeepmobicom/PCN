@@ -18,13 +18,30 @@ public class LoginPage extends Utility {
 	public By clubName = By.xpath("//h3[@class='profile-username text-center']");
 	public By yearFoundedLabel = By.xpath("//b[text()='Year Founded']");
 	public By yearFoundedValue = By.xpath("//b[text()='Year Founded']/following-sibling::a");
+	public By clubTypeLabel = By.xpath("//b[text()='Year Founded']");
+	public By clubTypeValue = By.xpath("//a[text()='Country Club']");
+	public By totalMembersLabel = By.xpath("//b[text()='Total Members']");
+	public By totalMembersValue = By.xpath("//b[text()='Total Members']/following-sibling::a");
+	public By clubUrlLabel = By.xpath("//b[text()='Club URL']");
+	public By clubUrlValue = By.xpath("//div[contains(@class,'ClubUrl')]");
+	public By locationLabel = By.xpath("//strong[contains(text(),'Location')]");
+	public By locationValue = By.xpath("//strong[contains(text(),'Location')]/following-sibling::div[contains(text(),'Bangalore')]");
+	public By phoneFieldLabel = By.xpath("//strong[contains(text(),'Phone')]");
+	public By phoneFieldValue = By.xpath("//strong[contains(text(),'Phone')]/../p[contains(text(),'9844098440')]");
+	public By emailLabel = By.xpath("//strong[contains(text(),'Email')]");
+	public By emailValue = By.xpath("//strong[contains(text(),'Email')]/../p");
+	public By aboutUsTab = By.xpath("//a[contains(text(),'About Us')]");
+	public By affiliatedClubsTab = By.xpath("//a[contains(text(),'Affiliated Clubs')]");
+	public By boardMembersTab = By.xpath("//a[contains(text(),'Board Members')]");
+	
+	
 	public By clubProfileMenu = By.xpath("//span[text()='Club Profile']");
-	public By basicInfoSubMenu = By.xpath("//span[text()='Basic Information']");
+	public By myClubSubMenu = By.xpath("//span[text()='My Club']");
 	public By clubFacilitiesSubMenu = By.xpath("//span[text()='Club Facilities']");
 	public By clubFacilitiesTitle = By.xpath("//h3[text()='Facilities on Your Club Profile']");
 	public By dashBoardMenu = By.xpath("//span[text()='Dashboard']");
-	public By dashBoardHeader = By.xpath("//h3[text()='Dashboard ']");
-	public By memberAccessDashBoardOption = By.xpath("//a[text()='Requests for Member Access ']");
+	public By dashBoardHeader = By.xpath("//h3[text()='Dashboard']");
+	public By memberAccessDashBoardOption = By.xpath("//a[contains(text(),'Requests for Member Access')]");
 	public By addfacilityButton=By.xpath("//p[@class=\"card-header\"]/b");
 
 	public LoginPage(WebDriver driver) {

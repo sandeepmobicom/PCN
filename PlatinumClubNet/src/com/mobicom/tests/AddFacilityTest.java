@@ -31,7 +31,7 @@ public class AddFacilityTest extends BaseTest {
 
 	@Test(priority = 89)
 	public void clickClubFacilitiesInMenu() {
-		Utility.findElement(addFacilityObject.clubProfileMenu).click();
+		Utility.findElement(addFacilityObject.myClubInMenu).click();
 		Utility.findElement(addFacilityObject.clubFacilitiesSubMenu).click();
 		assertTrue(Utility.isElementDisplayed(addFacilityObject.clubFacilitiesTitle), "Club facilities not loaded");
 	}

@@ -1,0 +1,60 @@
+Gradle
+
+
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+ configurations { 
+   antlibs
+ }
+
+ wrapper{
+	 gradleVersion = '4.9'
+ }
+
+defaultTasks 'compileJava','testngTest'
+
+dependencies {
+
+    compile "org.seleniumhq.selenium:selenium-java:3.13.0"
+    compile "org.testng:testng:6.9.10"
+    compile group: 'com.aventstack', name: 'extentreports', version: '3.1.5'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
+    compile group: 'io.appium', name: 'java-client', version: '5.0.4'
+    compile("org.uncommons:reportng:1.1.4") {
+        exclude group: "org.testng", module: "testng"
+    }
+    antlibs "com.oopsconsultancy:xmltask:1.15.1"
+    
+}
+
+task makePretty(type: Delete) {
+    delete 'test-output', 'build/reports', 'build/test-results', 'build/classes', 'build'
+}
+
+
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src"]
+        }
+    }
+}
+
+task testngTest(type: Test) {
+    testClassesDir = file('bin')
+    classpath = sourceSets.main.runtimeClasspath
+    useTestNG {
+        suites './testng.xml'
+    }
+}

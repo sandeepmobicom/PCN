@@ -2,11 +2,15 @@ package com.mobicom.helpers;
 
 import java.io.File;
 import java.net.MalformedURLException;
+import java.net.URL;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.log4testng.Logger;
 
@@ -49,12 +53,16 @@ public class GetDriver {
 	public static void getDriver(String testName) throws MalformedURLException {
 		switch (testName) {
 		case "Chrome on mac":
-			System.setProperty("webdriver.chrome.driver", "/Volumes/Development/MerchantCms/chromedriver");
-			driver = new ChromeDriver();
-//			caps=DesiredCapabilities.chrome();
-//			caps.setPlatform(Platform.MAC);
-//			caps.setBrowserName("chrome");
-//			driver=new RemoteWebDriver(new URL("http://192.168.0.101:4444/wd/hub"),caps);
+//			System.setProperty("webdriver.chrome.driver", "/Volumes/Development/MerchantCms/chromedriver");
+//			driver = new ChromeDriver();
+			caps=new DesiredCapabilities();
+			caps.setPlatform(Platform.MAC);
+			caps.setBrowserName("chrome");
+			ChromeOptions options=new ChromeOptions();
+			options.addArguments("disable-infobars");
+			options.merge(caps);
+			
+			driver=new RemoteWebDriver(new URL("http://192.168.0.101:4444/wd/hub"),options);
 			break;
 
 		case "Firefox on mac":

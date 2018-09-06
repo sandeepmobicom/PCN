@@ -1,8 +1,7 @@
 package com.mobicom.tests;
 
-import static org.junit.Assert.assertFalse;
+import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
-
 import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
